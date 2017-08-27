@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nitk.iste.scotlandyard">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme.Dark">
+        <activity
+            android:name="com.nitk.iste.scotlandyard.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.nitk.iste.scotlandyard.TabsActivity"
+            android:parentActivityName="com.nitk.iste.scotlandyard.MainActivity" >
+        </activity>
+        <activity
+            android:name="com.nitk.iste.scotlandyard.StartStory"
+            android:parentActivityName="com.nitk.iste.scotlandyard.MainActivity" >
+        </activity>
+        <activity
+            android:name=".ContactUs"
+            android:label="@string/title_activity_contact"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.nitk.iste.scotlandyard.CONTACT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".OfflineMap"
+            android:label="@string/title_activity_offline_map"
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="com.nitk.iste.scotlandyard.OFFLINEMAP" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Password"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.nitk.iste.scotlandyard.PASSWORD" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Admin"
+            android:label="@string/title_activity_admin"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.nitk.iste.scotlandyard.ADMIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+                android:name=".QRScanner"
+                android:label="@string/title_activity_qr_scanner">
+            <intent-filter>
+                <action android:name="com.nitk.iste.scotlandyard.QRScanner" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DisplayStory"
+            android:label="@string/title_activity_display_story"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.nitk.iste.scotlandyard.DISPLAYSTORY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".UnlockType"
+            android:label="@string/title_activity_unlock_code"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.nitk.iste.scotlandyard.UNLOCKTYPE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PasswordTwo"
+            android:label="@string/title_activity_password_two"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.nitk.iste.scotlandyard.PASSWORDTWO" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ShowProgress"
+            android:label="@string/title_activity_show_progress"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.nitk.iste.scotlandyard.SHOWPROGRESS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- ATTENTION: This was auto-generated to add Google Play services to your project for
+             App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+    </application>
+
+
+</manifest>
+

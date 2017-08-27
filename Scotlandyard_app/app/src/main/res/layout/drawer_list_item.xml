@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentRight="false"
+        android:gravity="center_vertical"
+        android:paddingLeft="26dp"
+        android:text="Option text"
+        android:textColor="#8a8a8a"
+        android:textSize="18sp" />
+
+
+    <com.makeramen.RoundedImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/imageViewbg"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:scaleType="centerCrop"
+        android:src="@color/android_blue"
+        app:riv_border_width="0dip"
+        app:riv_corner_radius="30dip"
+        app:riv_oval="true" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignLeft="@id/imageViewbg"
+        android:layout_alignRight="@id/imageViewbg"
+        android:layout_centerVertical="true"
+        android:src="@drawable/rules" />
+
+
+</RelativeLayout>

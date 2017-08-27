@@ -1,0 +1,129 @@
+<resources>
+    <string-array name="home_drawer_actions">
+        <item>@string/drawer_top_option</item>
+        <item>Home</item>
+        <item>@string/drawer_menu_option</item>
+        <item>Stories</item>
+        <item>Rules</item>
+        <item>Help</item>
+        <item>@string/drawer_services_option</item>
+        <item>Admin</item>
+        <item>Maps</item>
+        <item>@string/drawer_bottom_option</item>
+
+    </string-array>
+
+    <string name="drawer_top_option">Top</string>
+    <string name="drawer_menu_option">Menu</string>
+    <string name="drawer_bottom_option">Bottom</string>
+    <string name="drawer_services_option">Tools</string>
+    <string name="drawer_help_option">Tour</string>
+    <string name="drawer_settings_option">Contact Us</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+    <string name="app_name">Scotland Yard</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_stories">Stories</string>
+    <string name="title_activity_rules">Rules</string>
+    <string name="title_activity_online_map">OnlineMap</string>
+    <string name="title_activity_offline_map">OfflineMap</string>
+    <string name="title_activity_admin">Admin</string>
+    <string name="title_activity_contact">Contact</string>
+    <string name="title_activity_display_story">DisplayStory</string>
+    <string name="title_activity_unlock_code">Unlock the Code!</string>
+    <string name="title_activity_qr_scanner">QRScanner</string>
+    <string name="title_activity_password_two">PasswordTwo</string>
+    <string name="title_activity_show_progress">ShowProgress</string>
+    <string name="title_activity_map_two">MapTwo</string>
+    <string name="title_activity_map_rtwo">MapRTwo</string>
+    <string name="main_title">Home</string>
+    <string name="splash_quote">The Seven Sins Edition</string>
+
+    <!-- App Tutorial-->
+    <string name="tutorial_welcome_title">Welcome to Scotland Yard 2016!</string>
+    <string name="tutorial_welcome_text">The app allows you to keep track of your progress as you unlock clues and solve the mystery. Check this space for progress on your story. Pull to refresh your clues. Happy sleuthing!</string>
+    <string name="tutorial_homeinfo_title">Explore!</string>
+    <string name="tutorial_homeinfo_text">You can access to all the App features through the menu. You can also reach the most common options by swiping right!</string>
+    <string name="tutorial_find_title">Stories</string>
+    <string name="tutorial_find_text">As you solve clues for each location around the campus, one of five parts of a crime mystery will be unlocked and displayed here. Constantly check this space for solving your mystery.</string>
+    <string name="tutorial_blog_title">Rules</string>
+    <string name="tutorial_blog_text">Set of rules and guidelines to be followed while participating in the treasure hunt. Please make sure to go through these and abide by them for the duration of the hunt.</string>
+    <string name="tutorial_newsfeed_title">Help</string>
+    <string name="tutorial_newsfeed_text">Any questions? Any doubts? Any confusion? Feel free to contact any of us!</string>
+    <string name="tutorial_next">Next</string>
+    <string name="tutorial_understood">Got it</string>
+
+    <string name="one">ONE</string>
+    <string name="eight">EIGHT</string>
+    <string name="five">FIVE</string>
+    <string name="four">FOUR</string>
+    <string name="nine">NINE</string>
+    <string name="seven">SEVEN</string>
+    <string name="six">SIX</string>
+    <string name="ten">TEN</string>
+    <string name="three">THREE</string>
+    <string name="two">TWO</string>
+    <string name="title_activity_scrollable_tabs">Scrollable Tabs</string>
+    <string name="title_activity_simple_tabs">Simple Tabs</string>
+    <string name="btn_simple_tabs">Simple Tabs</string>
+    <string name="btn_scrollable_tabs">Scrollable Tabs</string>
+    <string name="btn_icon_text_tabs">Icon &amp; Text Tabs</string>
+    <string name="btn_icon_tabs">Only Icon Tabs</string>
+    <string name="btn_pinned_top_tabs">Pinned To Top Tabs</string>
+    <string name="title_activity_icon_text_tabs">Icon and Text Tabs</string>
+    <string name="title_activity_icon_tabs">Icon Tabs</string>
+    <string name="btn_custom_icon_tabs">Custom View Icon &amp; Text</string>
+    <string name="title_activity_custom_view_icon_text_tabs">Custom View Icon &amp; Text</string>
+    <string name="title_activity_pinned_top_tabs">Pin Top Tabs</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="start_story">
+        Listen my hatchling, for now you shall hear\n
+        Of the only seven slayers a dragon must fear.\n\n
+        First beware Pride, lest belief in one’s might\n
+        Has you discount the foeman who is braving your sight.\n
+        Never Envy other dragons their wealth, power, or home\n
+        For dark plots and plans will bring death to your own.\n\n
+        Your Wrath shouldn’t win, when spears strike your scale\n
+        Anger kills cunning, which you will need to prevail.\n
+        A dragon must rest, but Sloth you should dread\n
+        Else long years of napping let assassins to your bed.\n\n
+        ‘Greed is good,’ or so foolish dragons will say\n
+        Until piles of treasure bring killing thieves where they lay.\n
+        Hungry is your body, and at times you must feed\n
+        But Gluttony makes fat dragons, who can’t fly at their need.\n\n
+        A hot Lust for glory, gems, gold, or mates\n
+        Leads reckless young drakes to the blackest of fates.\n
+        So take heed of this wisdom, precious hatchling of mine,\n
+        And the long years of dragonhood are sure to be thine.\n\n
+    </string>
+    <string name="help_text">
+App developed by Shiv Shankar.\n\n
+
+        \tGreetings! This page tells you how to use the ISTE Scotland Yard app effectively and make the most out of it.\n\n
+
+        \tAs soon as you open the app, you will come across a poem which is needed to solve your mystery.\n\n
+
+        \tOn the home screen, the story you have currently unlocked will appear. Tap the home screen button to view your progress. Pull down to refresh for any recent changes.\n\n
+
+        \tYou can access all the features of the app by clicking on the hamburger button at the top left corner of your screen or you can simply swipe right to open the drawer menu.\n\n
+
+
+        \tIn the Stories page, click on your story number and a password will be given to you by an ISTE representative to unlock your story. This page contains buttons to unlock the remaining parts of your mystery story. Once you have completed a task at a particular location, the ISTE members present at that location will input the password for that particular clue and unlock the corresponding part of the story. By clicking the \'View progress\' button at the bottom, you\'ll be able to view the preface along with the unlocked parts of your story.\n\n
+
+        \tThe \'Rules\' tab is straightforward. It helps you refresh your knowledge of the rules of Scotland Yard. Make sure you go through this before beginning to play.\n\n
+
+        \tThe \'View Map\' option shows you a map of NITK, which you can use for easy navigation.\n\n
+
+        \tThe \'Contact Us\' option shows you a list of ISTE representatives whom you can contact in case of any confusion or trouble. If one number is busy, call up the next!\n\n
+
+        \tThe \'Admin\' page is off-bounds for you. \n\n
+
+        \tIf you still have any confusions, don\'t hesitate to contact us.\n
+        \tAll the best! Hope you guys have fun.\n\n
+
+            \tFor any queries related to the app or the event, please contact:
+        </string>
+</resources>

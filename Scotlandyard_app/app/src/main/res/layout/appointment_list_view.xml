@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fff">
+
+    <LinearLayout
+        android:id="@+id/appointment_list_item_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:descendantFocusability="blocksDescendants"
+        android:orientation="vertical"
+        android:background="@drawable/touchable_white"
+        android:padding="10dp"
+        android:clickable="true"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" >
+
+
+        <TextView
+            android:id="@+id/DoctorName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dip"
+            android:paddingTop="6dip"
+            android:textSize="30dp"
+            android:textColor="@color/android_blue_darker"
+            android:textStyle="bold"
+            android:text="Dr. Demo!" />
+
+        <TextView
+            android:id="@+id/AppointmentDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="2dip"
+            android:textColor="@color/black_80"
+            android:paddingTop="6dip"
+            android:text="13/04/2016" />
+
+        <TextView
+            android:id="@+id/AppointmentDay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black_80"
+            android:paddingBottom="2dip"
+            android:paddingTop="6dip"
+            android:text="Wednesday" />
+
+        <TextView
+            android:id="@+id/AppointmentTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black_80"
+            android:paddingBottom="2dip"
+            android:paddingTop="6dip"
+            android:text="1:00pm - 2:00pm" />
+
+    </LinearLayout>
+</RelativeLayout>

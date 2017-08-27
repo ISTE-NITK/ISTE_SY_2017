@@ -1,0 +1,4 @@
+#Sun Sep 25 10:37:58 IST 2016
+base.0=C\:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\transforms\\dex\\release\\folders\\1000\\1f\\main
+renamed.0=classes.dex
+file.0=C\:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\transforms\\dex\\release\\folders\\1000\\1f\\main\\classes.dex
