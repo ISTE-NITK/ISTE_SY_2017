@@ -1,0 +1,106 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.nitk.iste.scotlandyard.Admin"
+    android:background="#ffffff" >
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/tb_admin"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+
+        android:elevation="4dp" >
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_gravity="start|center"
+                android:src="@drawable/ic_security_white_48dp"/>
+            <TextView
+                style="@style/TitleTextStyle"
+                android:text="Admin"/>
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/android_orange_light"
+        android:fitsSystemWindows="true">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="56dp"
+            android:gravity="center_horizontal"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp">
+
+            <!--  Password Label -->
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dp"
+                android:layout_marginBottom="8dp">
+                <EditText android:id="@+id/admincomment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:textColor="@color/primary_darker"
+                    android:ems="10"
+                    android:hint="Enter comment"
+                    />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="8dp">
+                <EditText android:id="@+id/passwordadmin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"
+                    android:textColor="@color/primary_darker"
+                    android:ems="10"
+                    android:hint="Enter Password"
+                    />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/saveadmin"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="24dp"
+                android:layout_below="@+id/passwordadmin"
+                android:layout_centerHorizontal="true"
+                android:drawableStart="@drawable/ic_send_white_48dp"
+                android:padding="12dp"
+                android:text="Save"/>
+
+            <TextView
+                android:id="@+id/comment1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/saveadmin"
+                android:textColor="@color/primary"
+                android:layout_marginTop="28dp"
+                android:textSize="20sp"
+                android:text="" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

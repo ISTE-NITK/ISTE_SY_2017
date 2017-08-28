@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:descendantFocusability="blocksDescendants"
+    android:layout_height="match_parent"
+    android:background="@color/android_red_dark">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <TextView
+        android:id="@+id/helptext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:textSize="40dp"
+        android:textColor="#fcfcfc"
+        android:text=""/>
+
+    <ScrollView
+        android:id="@+id/helplistview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="@dimen/fragment_tabs_margin_top"
+        android:background="#fcfcfc"
+        android:gravity="center"
+        android:horizontalSpacing="4dp"
+        android:divider="#fcfcfc"
+        android:padding="4dp"
+        android:scrollbars="none"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="4dp"
+        android:layout_below="@+id/tb_help">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="30dp"
+            android:gravity="center_horizontal"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:minLines="2"
+            android:text="@string/help_text"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#81100B" />
+
+        <Button
+            android:id="@+id/devcontact"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Contact Us"
+            android:layout_below="@+id/helplistview"
+            android:drawableStart="@drawable/ic_local_phone_white_48dp"
+            android:textColor="#FFFFFF" />
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</android.support.design.widget.CoordinatorLayout>

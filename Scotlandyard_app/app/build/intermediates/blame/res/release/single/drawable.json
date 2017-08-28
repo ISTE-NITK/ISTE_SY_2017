@@ -1,0 +1,266 @@
+[
+    {
+        "merged": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\res\\merged\\release\\drawable\\startlogo.png",
+        "source": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\src\\main\\res\\drawable\\startlogo.png"
+    },
+    {
+        "merged": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\res\\merged\\release\\drawable\\logo.png",
+        "source": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\src\\main\\res\\drawable\\logo.png"
+    },
+    {
+        "merged": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_item_background_holo_light.xml",
+        "source": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\res\\merged\\release\\drawable\\doc_menu.png",
+        "source": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\src\\main\\res\\drawable\\doc_menu.png"
+    },
+    {
+        "merged": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_seekbar_track_material.xml",
+        "source": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_report_suggest.png",
+        "source": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\src\\main\\res\\drawable\\ic_report_suggest.png"
+    },
+    {
+        "merged": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\res\\merged\\release\\drawable\\marca.png",
+        "source": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\src\\main\\res\\drawable\\marca.png"
+    },
+    {
+        "merged": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\res\\merged\\release\\drawable\\design_fab_background.xml",
+        "source": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\drawable\\design_fab_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\res\\merged\\release\\drawable\\daily_view_list_item_tab_shadow_top.png",
+        "source": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\src\\main\\res\\drawable\\daily_view_list_item_tab_shadow_top.png"
+    },
+    {
+        "merged": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\res\\merged\\release\\drawable\\doc_male_large.png",
+        "source": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\src\\main\\res\\drawable\\doc_male_large.png"
+    },
+    {
+        "merged": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_text_cursor_material.xml",
+        "source": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\res\\merged\\release\\drawable\\delay_button_selector.xml",
+        "source": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\src\\main\\res\\drawable\\delay_button_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_borderless_material.xml",
+        "source": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\res\\merged\\release\\drawable\\sb__btn_bg.xml",
+        "source": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\exploded-aar\\com.nispok\\snackbar\\2.9.0\\res\\drawable\\sb__btn_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\res\\merged\\release\\drawable\\list_item_shadow.xml",
+        "source": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\src\\main\\res\\drawable\\list_item_shadow.xml"
+    },
+    {
+        "merged": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\res\\merged\\release\\drawable\\alldone.png",
+        "source": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\src\\main\\res\\drawable\\alldone.png"
+    },
+    {
+        "merged": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\res\\merged\\release\\drawable\\shape_list_item_active.xml",
+        "source": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\src\\main\\res\\drawable\\shape_list_item_active.xml"
+    },
+    {
+        "merged": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\res\\merged\\release\\drawable\\reminder_view_bg.xml",
+        "source": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\src\\main\\res\\drawable\\reminder_view_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_history_black_48dp.png",
+        "source": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\src\\main\\res\\drawable\\ic_history_black_48dp.png"
+    },
+    {
+        "merged": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\res\\merged\\release\\drawable\\daily_view_list_item_tab.png",
+        "source": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\src\\main\\res\\drawable\\daily_view_list_item_tab.png"
+    },
+    {
+        "merged": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\res\\merged\\release\\drawable\\account_xxhdpi.png",
+        "source": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\src\\main\\res\\drawable\\account_xxhdpi.png"
+    },
+    {
+        "merged": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\res\\merged\\release\\drawable\\background_tab.xml",
+        "source": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\exploded-aar\\com.astuetz\\pagerslidingtabstrip\\1.0.1\\res\\drawable\\background_tab.xml"
+    },
+    {
+        "merged": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ratingbar_full_material.xml",
+        "source": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_ratingbar_full_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\res\\merged\\release\\drawable\\done_button_red_selector.xml",
+        "source": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\src\\main\\res\\drawable\\done_button_red_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\res\\merged\\release\\drawable\\demo.png",
+        "source": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\src\\main\\res\\drawable\\demo.png"
+    },
+    {
+        "merged": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\res\\merged\\release\\drawable\\transparent_black_overlay_transition.xml",
+        "source": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\src\\main\\res\\drawable\\transparent_black_overlay_transition.xml"
+    },
+    {
+        "merged": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\res\\merged\\release\\drawable\\doc_female.png",
+        "source": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\src\\main\\res\\drawable\\doc_female.png"
+    },
+    {
+        "merged": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_arrow_back_black_48dp.png",
+        "source": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\src\\main\\res\\drawable\\ic_arrow_back_black_48dp.png"
+    },
+    {
+        "merged": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\res\\merged\\release\\drawable\\shape_list_item.xml",
+        "source": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\src\\main\\res\\drawable\\shape_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\res\\merged\\release\\drawable\\shape_list_item_bg_active.xml",
+        "source": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\src\\main\\res\\drawable\\shape_list_item_bg_active.xml"
+    },
+    {
+        "merged": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\res\\merged\\release\\drawable\\shape_list_item_inactive.xml",
+        "source": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\src\\main\\res\\drawable\\shape_list_item_inactive.xml"
+    },
+    {
+        "merged": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\res\\merged\\release\\drawable\\touchable_white.xml",
+        "source": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\src\\main\\res\\drawable\\touchable_white.xml"
+    },
+    {
+        "merged": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\res\\merged\\release\\drawable\\shape_list_item_bg.xml",
+        "source": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\src\\main\\res\\drawable\\shape_list_item_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\res\\merged\\release\\drawable\\hospital_menu.png",
+        "source": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\src\\main\\res\\drawable\\hospital_menu.png"
+    },
+    {
+        "merged": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\res\\merged\\release\\drawable\\button_normal.xml",
+        "source": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\exploded-aar\\com.github.amlcurran.showcaseview\\library\\5.0.0\\res\\drawable\\button_normal.xml"
+    },
+    {
+        "merged": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_dialog_material_background_dark.xml",
+        "source": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_dialog_material_background_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\res\\merged\\release\\drawable\\sb__bg.xml",
+        "source": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\exploded-aar\\com.nispok\\snackbar\\2.9.0\\res\\drawable\\sb__bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\res\\merged\\release\\drawable\\doc_female_large.png",
+        "source": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\src\\main\\res\\drawable\\doc_female_large.png"
+    },
+    {
+        "merged": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\res\\merged\\release\\drawable\\simple_highlight_click_selector.xml",
+        "source": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\src\\main\\res\\drawable\\simple_highlight_click_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\res\\merged\\release\\drawable\\button.xml",
+        "source": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\exploded-aar\\com.github.amlcurran.showcaseview\\library\\5.0.0\\res\\drawable\\button.xml"
+    },
+    {
+        "merged": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\res\\merged\\release\\drawable\\cling_button_bg.xml",
+        "source": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\exploded-aar\\com.github.amlcurran.showcaseview\\library\\5.0.0\\res\\drawable\\cling_button_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\res\\merged\\release\\drawable\\doc_male.png",
+        "source": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\src\\main\\res\\drawable\\doc_male.png"
+    },
+    {
+        "merged": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\res\\merged\\release\\drawable\\done_button_selector.xml",
+        "source": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\src\\main\\res\\drawable\\done_button_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\res\\merged\\release\\drawable\\diag_menu.png",
+        "source": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\src\\main\\res\\drawable\\diag_menu.png"
+    },
+    {
+        "merged": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_textfield_search_material.xml",
+        "source": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_radio_material.xml",
+        "source": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\res\\merged\\release\\drawable\\drawertopbg.png",
+        "source": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\src\\main\\res\\drawable\\drawertopbg.png"
+    },
+    {
+        "merged": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_dialog_material_background_light.xml",
+        "source": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_dialog_material_background_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\res\\merged\\release\\drawable\\story_clue.png",
+        "source": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\src\\main\\res\\drawable\\story_clue.png"
+    },
+    {
+        "merged": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\res\\merged\\release\\drawable\\done_button_green_selector.xml",
+        "source": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\src\\main\\res\\drawable\\done_button_green_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\res\\merged\\release\\drawable\\design_snackbar_background.xml",
+        "source": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\drawable\\design_snackbar_background.xml"
+    }
+]

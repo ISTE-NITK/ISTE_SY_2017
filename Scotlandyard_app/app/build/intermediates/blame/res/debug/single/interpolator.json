@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\res\\merged\\debug\\interpolator\\sb__decelerate_cubic.xml",
+        "source": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\exploded-aar\\com.nispok\\snackbar\\2.9.0\\res\\interpolator\\sb__decelerate_cubic.xml"
+    },
+    {
+        "merged": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\res\\merged\\debug\\interpolator\\sb__accelerate_cubic.xml",
+        "source": "C:\\Users\\shiv4\\StudioProjects\\ScotlandYard\\app\\build\\intermediates\\exploded-aar\\com.nispok\\snackbar\\2.9.0\\res\\interpolator\\sb__accelerate_cubic.xml"
+    }
+]
