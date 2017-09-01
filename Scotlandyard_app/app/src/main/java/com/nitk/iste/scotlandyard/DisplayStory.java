@@ -18,130 +18,61 @@ public class DisplayStory extends Activity implements OnClickListener {
 
     String[] prefaces = {
 
-            "It was a beautiful Sunday morning, as the dawn light up the veranda of Alex's house by the beachfront.\n" +
-                    "Looking from afar, the broad lawns and the fancy cars in the parking lot in the front yard screamed of\n" +
-                    "Alex's good fortune. The money meant he had friends and fame a plenty. But Alex's character, was\n" +
-                    "unlike what one would generally expect of a “rich” brat. His good-nature and charming personality had\n" +
-                    "earned him everyone's adoration. The fact that he treated everyone around him from his butler Rowney,\n" +
-                    "to the president of an MNC with great respect, was a standout virtue of his. Rowney, who'd been loyally\n" +
-                    "serving the Greens, well before Alex's birth, often praised Alex's humility. Though Rowney’s\n" +
-                    "dedication, was partly because, he wanted to pool enough money for his daughter’s heart surgery.\n",
+            "On Sunday,February the 28th 2010, sometime late in the morning, Kanan Hiremath went missing from his home in Bangalore. The Missing Person report, however, was not filed until the next morning, when his neighbour, Dr Ezekiel Philip, contacted the police informing them of a call that he had received at dawn, demanding a ransom of 54 lakh Rupees for the release of Mr Hiremath. Dr Philip was questioned further on the victim, his features and his personality. Kanan Hiremath was the son of a businessman who ran a firm selling machine components for several industries, and had taken over the business after his parents’ untimely death. He was between 30 and 35 years in age, and stood around 5’10” tall, with a muscular frame. He had been involved in the freak road accident which had killed his parents five years ago, and whenever the subject came up he would get visibly uncomfortable and try to avoid talking about it. Mr Hiremath had inherited his house, a massive colonial villa from his parents. He generally lived in isolation, mostly only commuting to and from work. Dr Philip then described the ransom call; the voice had sounded like that of a middle-aged male, somewhat deep and rough. It had also sounded familiar to him. Moreover, the voice demanded a strangely exact amount of money and gave Dr Philip instructions on where the money was kept in the victim’s house, and how to get it, which lead the police to speculate that the culprit was someone that both the doctor and Mr Hiremath knew. On tracing, the ransom call was found to have originated from a PCO payphone 27 km away from where the abductee was last seen in the neighbourhood. ",
 
 
-            "“We don't need no education” went the song in Detective Marge’s iPod. “That's a double negative!”,\n" +
-                    "she quipped to herself and chuckled. The newest recruit of Alderaan police station, Marge, found that\n" +
-                    "police work involved more of paperwork than kicking ass, unlike what they had yapped about in the\n" +
-                    "academy. As her thoughts took over, the song drifted off… only to be interrupted by the shrill ring of\n" +
-                    "the DeskPhone.\n" +
-                    "Madeleine, the only daughter of Alderaan’s shipping magnate, Mr. Black, was kidnapped on the way\n" +
-                    "back from school. A muffled voice had demanded a ransom of 5 million dollars…\n" +
-                    "The next day, with help from Mr. Black, Marge rounded off a list of 5 suspects for questioning in the\n" +
-                    "station.\n",
+            "The New Year's Day of ’09 wasn’t a happy one, as the world-renowned actor, Joey Tribbiani, had been found murdered in his villa in Las Vegas. The famous detective Gunther had been called upon to crack the case. On talking to Joey’s assistant Janice, he learned that, all through the previous year, Joey had been stalked, blackmailed and had even received death threats. Upon investigating the crime scene, he determined that the stalker (who was the murderer) was someone, who was a very close friend of Joey, as there were no signs of a struggle. He caught the next flight to New York, to interrogate Joey's famous friends. ",
 
 
-            "As the hour hand touched midnight the gentle waters off the pier reflected a pretty little picture: playful\n" +
-                    "flames flickering defiantly against the frigid night air. Ironically enough, the fire was fuelled by the\n" +
-                    "Bluth’s Frozen Banana Stand. All too soon their greed turned the playful flames fiercer and they surged\n" +
-                    "into an inferno which burned itself to death within minutes. By the time the police arrived on the scene\n" +
-                    "all that was left were faintly glowing embers that cast shadows on the hollowed husk of what was once\n" +
-                    "a local landmark. ",
+            "One eerie night at Miss Peregrine’s home for Psychiatric persons, lit by the dim yellow hue of the only light in the room, lay Ms. Wilkinson’s cold, lifeless body surrounded by a group of pseudomaniacs; Tom McCarthy, John Doe, Macey Quill, Eva Adams and Marcus Sanders, eagerly waiting to falsely claim to having committed the crime of killing their warden. The murder as investigated by Alan Ston, the best detective and cryptographer in town, was clean, sophisticated and perfectly planned with absolutely no evidence left behind except a note that flashed the question ”You Ever Care About Me?” While searching through Ms.Wilkinsons files, Mr.Ston found a note containing the ID (D-1-3-5-19) for the patient who was eligible to have been discharged two weeks back. Now, Mr. Ston had the impossible task of interrogating a bunch of pseudomanics and finding out who the actual culprit was. ",
 
 
-            "Geisha (Mameha) - a Japanese hostess trained to entertain with conversation, dance, and song.\n" +
-                    "Okiya - The lodging house in which a geisha lives during the length of her career as a geisha.\n" +
-                    "Ochaya - In Japan, an ochaya (literally \"tea house\") is an establishment where patrons are entertained\n" +
-                    "by geisha.\n" +
-                    "Mother (Okasan) - The proprietress of the okiya is called okā-san (the Japanese word for \"mother\").\n" +
-                    "Tatsuya Fujiwara - A patron of Ichiriki Ochaya\n" +
-                    "Yuki Fujiwara- Tatsuya's Wife\n" +
-                    "Hatsumomo Murasaki - Yuki's Sister",
+          "It was a cold night in December. In the house at the far end of the street, a woman was found lying outside on the cold brickwork in a pool of dark crimson blood. Inside the house, another woman was found dead on the sofa. But there was no blood around her. All that was there was a face twisted in pain and a lifeless body trying to match the coldness of the weather outside. The first woman was Alice, a rising supermodel in the industry. The one inside the house was Dinah, who used to be one of Alice’s closest friends before some unfortunate events tore them apart. There were three other people in the house at that moment. First was Connell, who was Alice's live in relationship partner and Dinah's former boyfriend. Next, there was Bernard Peterson, the short-tempered designer who found Alice and mentored her for 10 years, taking her to the top of the industry. And finally, Rosy, the maid who had been in Alice’s employ for the last 8 years. The police, lead by DI Joe, arrived at the scene and so began the investigation into the events of that dreadful night. ",
 
 
-            "With the release of the new movie \"Pink\", four friends Abhiram, Bhabesh, Chelsee, Dhruv decide to go\n" +
-                    "together for it.\n" +
-                    "Just before the start of the movie, Abhiram decides to go and buy food for everyone. During the interval\n" +
-                    "when the lights were switched on, Dhruv was found frothing from his mouth, his face was purple from\n" +
-                    "asphyxiation and his heart had stopped beating.\n" +
-                    "Soon the police came to investigate the incident. They conducted a security check on the personal\n" +
-                    "inventory of Abhiram, Bhabesh and Chelsee; during which they came across the facts that Abhiram's\n" +
-                    "hood of the jacket was wet, Bhabesh’s shoes had kernels of popcorn stuck in the soles and Chelsee had\n" +
-                    "brown stains on her shirt's sleeves.\n" +
-                    "The police commissioner then asked Abhram, Bhabesh, Chelsee for their respective statements:\n",
+
+            "It had been a very cold couple of nights at the Braavos Asylum, ever since winter was here. The chilling winds at night had been giving a hard time for the guards around the asylum especially at night. And the inmates’ rooms had no proper heating system and that made quite a few inmates to go sick thanks to the cold. And on 13th of September, it was a night just like that.  A cold night, and a there had been a cold-blooded murder as well. The head guard of the Asylum had been murdered in the dim night light. He had been murdered right on his office chair, right around 3 in the night. The murder weapon was right next to him, his baton. The officer had decided to catch his regular late night nap and dozed off on his chair. The lights had been out the since 10 in the night due to a power failure. As soon as the head guard had dozed off the murderer got in and used the baton lying on his table and smashed the officer’s head. No fingerprints on the door, on the baton or anywhere around the room because most of the members of the asylum wore gloves due to the extreme cold. There are 5 rooms in the same corridor. 3 of them belong to the inmates, one belonging to the room of the Deputy Head Guard and the final one is that of the Chief Psychiatrist. As Detective Tyrion of WCPD rolled into the asylum he knew, that these were the 5 major suspects he had to look into.",
 
 
-            "The dawn of 26th September saw quite a commotion on Fleet Street, with police sirens and an\n" +
-                    "assemblage of detectives, reporters and onlookers disturbing the otherwise prevalent placidity of\n" +
-                    "Winchester Manor. Robert Winchester, aged 46, was found dead in his backyard at daybreak, seemingly\n" +
-                    "due to a fatal fall from the balcony of his bedchamber. Robert, an affluent businessman and an excellent\n" +
-                    "administrator, was at the helm of Winchester Enterprises. However, even his impressive social standing\n" +
-                    "and lack of vices could not counter his ruthlessness and utter disregard for personal relations.",
+            "The cool September breeze ruffled and brushed apart the red and white rose petals strewn artistically on the aisle leading to the altar. The wedding guests, impeccably dressed in suits and dresses, sat motionless, gripped with shock. The air between them was as grim as the look on Edward Patterson’s face. He had just heard the news. His fiancé, Alayna Kingsley was found dead in the woods a mere six miles from the resort. A white handkerchief, a hair band and a small, disheveled piece of paper was all that was found beside the decked-up body at the crime scene. Even dead, she looked beautiful, what with the make-up accentuating her features.  She was last seen at breakfast the previous morning. Edward was visibly shattered. His fiancé was a lean woman with beautiful pale skin, friendly blue eyes contrasting her strong, sharp features. Her pixie haircut had grown just long enough to flow over to her lower neck. She worked as an analyst in Gray Holdings Inc., where she’d met Edward. He loved her immensely.",
 
 
-            "Bruce Wayne was the second of three sons of the late Thomas Wayne , Christian Wayne being the\n" +
-                    "eldest and Keaton Wayne being the youngest. The city's rich and famous had gathered at the Wayne\n" +
-                    "Manor to celebrate the biggest event to be held in the city; Keaton Wayne's marriage. The guests at the\n" +
-                    "event, were having a great time, drinking the fine wine, admiring the elegant furnishing and indulging\n" +
-                    "in some good old banter and gossiping. Suddenly, amidst all this, there was a loud scream. Everyone at\n" +
-                    "once, rushed towards the source of the scream. To their horror ,they saw Selina Wayne, Bruce Wayne’s\n" +
-                    "wife, staring at her husband's dead body. With Bruce Wayne about to sell his company and enjoy the\n" +
-                    "bliss of family life, people did expect changes to occur in Bruce’s life. But a murder, was most\n" +
-                    "unexpected. The whole manor was sealed to prevent the culprit from fleeing. Captain Jim Gordon was\n" +
-                    "called to handle the case. He observed that there were no signs of struggle and that the room was one\n" +
-                    "of the most private rooms in the manor, thus, known only to the closest few. He instructed the butler\n" +
-                    "Alfred, to open the gates and let the guest leave except for the closest few. After questioning he realised,\n" +
-                    "that it was obvious who the murderer was. ",
+
+            "Ridley's Station was a quaint little town nestled in the imposing Rocky Mountains. The town got its name from being the spot where searchers used to alight from packed trains in the search for gold during the gold rush. The town used to bustle with traffic and trade but like any mining town it was doomed to be abandoned when the mines ran dry, and they soon did. The few remaining residents too changed their character as their homes became dilapidated shacks, their valuables became detritus and ambitions became a mere memory. Some brave souls started new ventures to keep some sense of self-importance. Daniel Mason was one such soul until his lifeless body was found, hogtied, scalped and mutilated in the middle of the town square one winter morning\n"+ 
+"Below his cold dead body, a placard read:\n"+  
+" ”My hand will be against the prophets who see false visions and utter lying divinations. They will not belong to the council of my people or be listed in the records of Israel, nor will they enter the land of Israel. Then you will know that I am the sovereign lord.”\n"+  
+"-Ezekiel 13:9",
 
 
-            "Detective Moira MacTaggert was quite annoyed as she had to cut short her Sunday afternoon siesta\n" +
-                    "only to attend to the primary investigation of a seemingly boring homicide that had taken place earlier\n" +
-                    "in the day. She groaned as the GPS tracked her destination to be somewhere in suburban New York –\n" +
-                    "murder in quiet suburbia, can’t get more mundane than that. As she pulled into the driveway of Number\n" +
-                    "12, Westchester County, she couldn’t help but note that the pall of gloom that had set in jarringly stood\n" +
-                    "out against the tacky party decorations. The faint smell of barbecue smoke still hung in the air as the\n" +
-                    "medical examiner wasted no time in explaining to her that the victim, Mr Scott Summers had been shot\n" +
-                    "in the stomach around 11 am and met with an almost immediate demise. The bullet came from an\n" +
-                    "unauthorized standard handgun which was later found on-site but rubbed clean of fingerprints. The\n" +
-                    "incident took place in the kitchen shortly after he had excused himself from the party to refill the wine\n" +
-                    "decanter. On hearing that one of the guests claims to have witnessed the murder first-hand, Detective\n" +
-                    "MacTaggert resorts to questioning as her plan of action. ",
+            "Year 1851\n"+ 
+"Amidst heavy rains and violent thunderstorms, Nikola Tesla lay dead in his London apartment. He lay on the ground like Da Vinci’s Vitruvian man, hands and legs spread to the farthest possible. Blood came bubbling down his mouth and the smell of fleas inhabiting his dead body was unbearable. All in all, it was a gruesome sight to behold.",
 
 
-            "As chirping birds broke the silence of dawn, a bright Sunday was in the offing. Terrence, the leader of\n" +
-                    "a worker’s union was quite infamous. A grumpy, pessimistic personality; he was a slave to his cheap\n" +
-                    "OMR and Mills cigarettes. Notorious for picking up fights with just about any soul left, right and centre;\n" +
-                    "his name evoked disgust, in other union circles too.\n" +
-                    "That Sunday, the filth of a man, woke up early to go out for a walk and lose himself to the nature around.\n" +
-                    "But just as he got out of his apartment, he noticed someone lurking over his shoulders. Before he could\n" +
-                    "turn around a strong pair of hands shoved him inside the apartment and locked the door. It was darkness\n" +
-                    "all around. A faint light penetrated through the window sill in the far corner; but it didn’t really help.\n" +
-                    "He was scared to death, and feared the worst. No sooner, he was stabbed from behind, thrice! with those\n" +
-                    "strong hands muffling out his screams. “You shall rot in hell for all your sins, your traitor! This is what\n" +
-                    "happens for those who don’t keep their word!”\n" +
-                    "That Sunday had just turned bloody. Mrs. Smith, a neighbour had spotted a thin film of blood creeping\n" +
-                    "from under the door and had at once dialled for the police. The police soon arrived and started their\n" +
-                    "investigation. They were told that no one had entered or left the main gate of the apartment in the\n" +
-                    "morning, from the security guard, as he lit up a cigar. The police then interrogated each and every\n" +
-                    "person inside the premises which consisted of 6 houses and a security accommodation.\n",
+            "Lincolnshire, England.\n"+
+"It is the year 1860, the cold morning breeze blows past the Harlaxton Manor as the snow slowly collects on its walls. The occupants of the mansion are extremely busy as they prepare for the Sunday Luncheon. The family currently residing in the Harlaxton Manor are the Scrimgours. Brutus Scrimgour is the patriarch of the family. He is a very wealthy man and is very influential; earning a bulk of his wealth through trade with India. Today the Duke of Wellington was stopping by for lunch and so he wanted everything in the house to be perfect. The responsibility of this fell squarely on the shoulders of Martha Scrimgour.\n"+
+" ”Thomas, where have you been” yelled Martha. A man in his early 40's put down the vase he was dusting and turned to address Martha. He was wearing a dress coat with formal trousers and a black bow tie. His name was Thomas Rhett and he was the butler. Thomas replied  ”I had gone to collect the mail Ma'am”.  ”Forget about the mail” replied Martha.  ”Have the flowers come in yet?”  ”I am not quite sure about that, I will check up on that” said Thomas.  ”Go quickly and I want those flowers to look perfect” said Martha. Thomas left with a curt nod. Martha quickly made her way to the kitchen and found the chef coating the lamb with a mix of rosemary and basil. She was pleased to see that her chef Harry was finally working hard. But just as soon as Harry had completed coating the meat he turned and picked up the pipe lying on the counter and started to smoke. This gesture infuriated Martha and she stormed into the kitchen and snatched the pipe and screamed  ”I saw you working hard and thought that it was bad of me to fire you. But now I am sure of what I am doing. This is the last dish you will ever cook in this house, after this I want you out”.\n"+
+"Martha stormed out of the kitchen and entered into the gardens for a bit for fresh-air. She noticed her gardener Sam, removing the snow from the garden. He saw her and greeted her. She smiled back and she then took a deep breath and walked back into the house. She saw her servant Paula exiting the kitchen with a glass of water. As soon as Paula saw her she quickly came in front of her and said  ”Ma'am I have finished arranging and setting your clothes and the emeralds have also been polished and kept on the bed”. Martha nodded and slowly climbed up the stairs to her bedroom. As she reached the top she heard the doorbell, the door was answered by Paula and Brutus walked in and took of his coat and boots. He looked at his wife and exclaimed  ”Honey get dressed, the Duke will be here any minute now”. Martha promised that she would be ready as soon as possible and then opened the door to her bedroom. As she looked at the clothes arranged on her bed, she noticed something missing. The shining green emeralds her husband had got her from India were missing. She screamed as loud as she could. Hearing her screams the entire household entered the room. She then looked at Brutus's face and said  ”Someone has stolen the emeralds” as tears rolled down her face. Brutus looked at her and then to his working staff and said  ”Paula shut the doors, the thief is among us. Nobody is to leave until we catch the individual and send a telegram to Hercules Pirate and ask him to come here now. Only he can solve this now”.",
 
 
-            "So, Emma, our very own elderly neighbour, loved curling up with her mittens on her hands, warm and\n" +
-                    "cosy in bed every night, her prized pearls on the bed stand next to her. One could even call her vain,\n" +
-                    "considering the attachment she had toward this possession of hers. Oh! the terror that crossed her face\n" +
-                    "when she found them missing.\n",
+            "If vanity could be described as an object then nothing would describe it better than the White Mansion. Its wide archways with huge supporting pillars and the interiors filled with exquisite furniture from all around the world, scream false pride. But the most outrageous of them is the dog house. A two-storeyed building filled with all sorts of mad eccentricities, up to date with the latest trends. This morning though, the atmosphere was filled with a solemn silence of the unexpected. A girl was found dead in the woods surrounding the mansion grounds. How and why an unknown girl scaled the walls of this place in the dead of the night, no one knows or so they say. Forensics have confirmed the reason for death as multiple, fatal animal bites, probably by a dog.\n"+
+"Considering their high social status and immense fortune one would assume that the Whites are highly sociable and amicable. Quite to the contrary, they happen to be a bunch of social misfits consisting of an old mother, two widowed daughters and a trusted servant. None of them have ever been spotted at social gatherings. Narcissa White, the old mother suddenly came into possession of the huge fortune following the demise of her husband, Dr Nebula White. ",
 
 
-            "After Harry’s first year at Hogwarts, he returned to his aunt’s home at 4 Privet Drive. Every year during\n" +
-                    "Dudley’s birthday a chocolate cake was ordered from the nearby bakery. But this time around, as his\n" +
-                    "birthday fell on a Sunday, and the bakery was closed, aunt Petunia herself baked a delicious looking\n" +
-                    "chocolate cake. Like every year, Dudley had planned for a grand party with his friends but (as usual)\n" +
-                    "poor Harry Potter was not invited. Just before the start of the party, Aunt petunia found that the cake\n" +
-                    "was missing. Frantically searching everywhere, she found a few crumbs lying in front of Harry’s room\n" +
-                    "under the stairs. Connecting the two, she started banging on his door, accusing him of stealing the cake.\n" +
-                    "Realizing he is in deep trouble, Harry at once sends for Ron and Hermione, his best friends. Moreover,\n" +
-                    "he places the time the cake went missing to be around 5:00 pm. Arthur dropped Ron and Hermione in\n" +
-                    "his Flying Ford Anglia in about half an hour.\n" +
-                    "The six people that were present at the party excluding Harry were; Uncle Vernon (father), Aunt Petunia\n" +
-                    "(mother), Dudley, Marvin and Sam (Dudley’s friends) and Marge (aunt).\n",
+            "Habib Tariq admired the picturesque beauty of his surroundings. He was a guest of the Anale Owa tribe that occupied the Upper Guinea forests of Southern Guinea. An ethnobotanist by profession, he had set out on a journey to study and learn the relationship of tribal communities with their forest.\n"+
+"Today Habib was in the midst of a group of people waiting outside the hut of the Abenaki family. Timiska Abenaki was giving birth to her first child and everyone was excited and jubilant. The crowd began to whoop as the midwife came out; probably to give the news of a successful delivery. The cheers however, began to dissipate at the sight of her grim expression.\n"+
+"”The chin is divided,” she proclaimed. A hush fell over the crowd followed by a wave of frantic whispers. ",
+
+            "Mr.Fletcher raised his arms and stretched. Another pile of papers to score and his job here was done.\n"+
+"”I’m going to miss this place,” he thought to himself ”Pretoria will be great but it’s hard to leave all this behind. Mr. Sutachan might be a bit crude and domineering but he’s a good man; all the children, especially Danyal and Tanya have come such a long way; and Maria-”\n"+
+"The chain of his thoughts were interrupted by a knock on the door. He got up, opened the door and beamed.\n"+
+"”It’s you,” he said, ”Come in..” ",
+
+             "On a chilly Thursday morning, Greg Daniels was found dead. He was the senior journalist for The Scranton Chronicle based in Scranton, Missouri. Private Investigator Billy Macklin was called at 8AM to the Chronicle’s newsroom.\n"+
+"Said the janitor, ”I came in a little later after 7:30AM and got right to cleaning. Mr. Greg’s office is at the other end so by the time I started to clean his room, it should have been 7:50AM. I opened the door and I immediately saw his body lying in a pool of blood on the floor. By that time, Mr. Steve and Mr. Frank had come to the newsroom. I yelled out to them and we checked his pulse even though he was clearly dead. Steve decided to call you to avoid any bad press.” ",
+
+"I woke up in the middle of the night to the sound of my phone ringing. 11:35pm; another call from the department. They wanted me at Blueberry Manor right away. Blueberry Manor was owned by the wealthy Mr. Jeremy who had hit a jackpot in business after college and had come across loads of money. I was quite shocked to hear that Mr. Jeremy had been found dead at the Manor at around 11:30pm. I drove faster than usual and reached the crime scene at 11:55pm. ",
+
+"It’s another gloomy morning in Seattle. The traffic gridlock on Elliott avenue St. is driving everyone impatient including Ava Maria Vasquez, a thirty-something psychiatrist; tall, attractive brunette with doe eyes so black, with the depth of someone wise beyond her years. But she was more than beautiful; she also possessed the powerful gift of understanding those whom the world considers ”mad”, ”crazy” or ”psychotic”, and a strong willingness to help and make people’s lives better. As she checks the time on her watch; which belonged to her deceased father, she realizes she might not make it in time for her appointment with Sam. The last few days have been hard on her as the more she found out about Sam, the more she realized how many similarities they shared; intellectually and physically. 'Sam is special' she wonders. There is something about her which makes Ava feel an instant connection every time they meet. She instantly rings up Martha; the receptionist at her office, and requests her to keep her client engaged until she arrives. As she is on the phone with Martha, she sees that the traffic has come to a standstill because of the presence of police vans and an ambulance. She could also spot the media at a distance. Although she wants to know what’s happening, she tells herself that she could use this time to work on another ongoing case; that of 13-year old Matilda. She opens the diary and starts reading from the page she stopped at last night. Somehow it is always a difficulty to figure this out as she falls asleep, almost after every read. " 
 
     };
 

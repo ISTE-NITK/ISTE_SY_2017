@@ -217,17 +217,21 @@ public class ZeroFragment extends Fragment implements TabsActivity.OnBackPressed
 
     String getDesc(int story){
         switch (story){
-            case 1: return "Where is the birthday boy?";
-            case 2: return "Kidnapping Blues";
-            case 3: return "Banana Stand";
-            case 4: return "Fire at Ochaya";
-            case 5: return "Peanut and the Poison";
-            case 6: return "Murder at Fleet Street";
-            case 7: return "The Death In The Family";
-            case 8: return "The Mundane Murder";
-            case 9: return "The Bloody Sunday";
-            case 10: return "The Missing Pearls";
-            case 11: return "Mystery of the Missing Cake";
+             case 1: return "The Strange Abduction of Kanan Hiremath";
+            case 2: return "F.R.I.E.N.D.S No More";
+            case 3: return "The Murder of Ms Wilkinson";
+            case 4: return "Darkness of Light";
+            case 5: return "The Late Night Death";
+            case 6: return "The Secret";
+            case 7: return "Dirty Old Town";
+            case 8: return "The Murder of Nikola Tesla";
+            case 9: return "The Missing Emeralds";
+            case 10: return "Vanity turns Dark";
+            case 11: return "Murdering Little Devils";
+            case 12: return "Until Death Do Us Part";
+            case 13: return "Murder in the Newsroom";
+            case 14: return "The Murder at Blueberry Manor";
+            case 15: return "A Dark Dilemma";
             default: return "";
         }
 

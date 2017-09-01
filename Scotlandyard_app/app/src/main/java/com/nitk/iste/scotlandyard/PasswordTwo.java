@@ -18,390 +18,263 @@ public class PasswordTwo extends Activity implements OnClickListener {
 	public static String filename = "Progress";
 	EditText et1;
 	static String st[]={
-			"7ncYWf5PQdqgExv","wLhidsZkT8dr7bj","m9lenZD7rI46lE5","Y73MhQIqVhn0xYf","e8nckjLyIHb8I5U",
-			"ny67IJJu2s9co1i","CUnEphs0eabJTAn","if7h6H2Zxma6mk1","h0vC0fax0jae5g6","e8nckjLyIHb8I5U",
-			"hUKLDp0yb2GYE5o","GSIwxqV1Ct3V7PD","Ljmixzz1Kfn8EDH","7ncYWf5PQdqgExv","if7h6H2Zxma6mk1",
-			"vs9neljpxiq7Zk3","hYtcaZIKI3LRUcd","C3C3WHHIS38oKhM","hUKLDp0yb2GYE5o","if7h6H2Zxma6mk1",
-			"qLSw58gyLQbMiQQ","e8nckjLyIHb8I5U","ny67IJJu2s9co1i","UKIvgmR9SOGIUJ0","CUnEphs0eabJTAn",
-			"C3C3WHHIS38oKhM","vs9neljpxiq7Zk3","h0vC0fax0jae5g6","wLhidsZkT8dr7bj","hYtcaZIKI3LRUcd",
-			"Y73MhQIqVhn0xYf","ny67IJJu2s9co1i","wLhidsZkT8dr7bj","hUKLDp0yb2GYE5o","GSIwxqV1Ct3V7PD",
-			"UKIvgmR9SOGIUJ0","7ncYWf5PQdqgExv","GSIwxqV1Ct3V7PD","h0vC0fax0jae5g6","e8nckjLyIHb8I5U",
-			"vs9neljpxiq7Zk3","Y73MhQIqVhn0xYf","qLSw58gyLQbMiQQ","hUKLDp0yb2GYE5o","Ljmixzz1Kfn8EDH",
-			"UKIvgmR9SOGIUJ0","C3C3WHHIS38oKhM","m9lenZD7rI46lE5","if7h6H2Zxma6mk1","ny67IJJu2s9co1i",
-			"Ljmixzz1Kfn8EDH","CUnEphs0eabJTAn","qLSw58gyLQbMiQQ","wLhidsZkT8dr7bj","vs9neljpxiq7Zk3"
-	};
+			"39e4867e74974c0ea562b0a6b3092afd","95449d05c46f42f2bf68a95b5b5f4a03","bea7783d4d0a454fb6083a2ad759f1b1","eafcd38148ec4b66b610b43d5fec8e52","7f7a08b320a948869784119cff18924c",
+			"8c4684dd18a8417597494a26b8189634","333ab208a7614591a4ee2049d983b956","2a31823e48fe4ad3873514c6413f8fb9","a9e408fcacc945d087ad26ca3b53b1a5","dcd7f9b2c81d4af6beb69fda6003a751",
+			"ce91bf0033364067b4873f9ee3744948","4727765aff174c908d92b29ac73ce10b","00a6433c7be04c82a898b5f04a51a27a","ef7480c746f3461789b7d42f4c709a3e","5cac83fb58da4e9280f321867977380e",
+			"e2f32ad11f1245019121d913c5949a87","1f1964f375814098a9c33823cba8a757","dcd7f9b2c81d4af6beb69fda6003a751","95449d05c46f42f2bf68a95b5b5f4a03","8c4684dd18a8417597494a26b8189634",
+			"ae4aabe3698c488c9184038231370552","ce91bf0033364067b4873f9ee3744948","f4cb2109616340c28ce1143196067505","4b8b9cbdc7ba4d87acd46fde0f5f16ca","ef7480c746f3461789b7d42f4c709a3e",
+			"5cac83fb58da4e9280f321867977380e","bea7783d4d0a454fb6083a2ad759f1b1","8c4684dd18a8417597494a26b8189634","eafcd38148ec4b66b610b43d5fec8e52","2a31823e48fe4ad3873514c6413f8fb9",
+			"4727765aff174c908d92b29ac73ce10b","e2f32ad11f1245019121d913c5949a87","39e4867e74974c0ea562b0a6b3092afd","333ab208a7614591a4ee2049d983b956","7f7a08b320a948869784119cff18924c",
+			"1f1964f375814098a9c33823cba8a757","eafcd38148ec4b66b610b43d5fec8e52","a9e408fcacc945d087ad26ca3b53b1a5","00a6433c7be04c82a898b5f04a51a27a","ef7480c746f3461789b7d42f4c709a3e",
+			"a9e408fcacc945d087ad26ca3b53b1a5","ce91bf0033364067b4873f9ee3744948","1f1964f375814098a9c33823cba8a757","dcd7f9b2c81d4af6beb69fda6003a751","f4cb2109616340c28ce1143196067505",
+			"95449d05c46f42f2bf68a95b5b5f4a03","e2f32ad11f1245019121d913c5949a87","4727765aff174c908d92b29ac73ce10b","ae4aabe3698c488c9184038231370552","4b8b9cbdc7ba4d87acd46fde0f5f16ca",
+			"2a31823e48fe4ad3873514c6413f8fb9","5cac83fb58da4e9280f321867977380e","f4cb2109616340c28ce1143196067505","00a6433c7be04c82a898b5f04a51a27a","39e4867e74974c0ea562b0a6b3092afd",
+                        "333ab208a7614591a4ee2049d983b956","4b8b9cbdc7ba4d87acd46fde0f5f16ca","ae4aabe3698c488c9184038231370552","7f7a08b320a948869784119cff18924c","2a31823e48fe4ad3873514c6413f8fb9",
+           "4b8b9cbdc7ba4d87acd46fde0f5f16ca","e2f32ad11f1245019121d913c5949a87","95449d05c46f42f2bf68a95b5b5f4a03","ef7480c746f3461789b7d42f4c709a3e","dcd7f9b2c81d4af6beb69fda6003a751",
+                        "f4cb2109616340c28ce1143196067505","7f7a08b320a948869784119cff18924c","5cac83fb58da4e9280f321867977380e","4727765aff174c908d92b29ac73ce10b","ce91bf0033364067b4873f9ee3744948",
+                        "00a6433c7be04c82a898b5f04a51a27a","a9e408fcacc945d087ad26ca3b53b1a5","ae4aabe3698c488c9184038231370552","39e4867e74974c0ea562b0a6b3092afd","8c4684dd18a8417597494a26b8189634",
+	};                                                                                                        
 	static String clues[]={
 
 			//STORY A CLUES
-			"As he walked down the stairs, his surprise and happiness knew no bounds, as an unexpected gathering\n" +
-					"greeted him happy birthday! Among the gathering were familiar faces; Jessica - his girlfriend, Clement\n" +
-					"- his most trusted and best friend, Walter - his step-brother, whom he was seeing after a long time and\n" +
-					"his friends Robert and Saul.\n" +
-					"Saul Brown was from Green’s rival family. The two were often compared. But lately, Alex was\n" +
-					"outshining Saul in every sphere of competition. Alex’s smile faded away as his eyes fall on Jesse,\n" +
-					"Jessica's ex, “damn that guy!”, muttered Alex under his breath. The whole surprise was planned by\n" +
-					"Jessica and Clement for Alex’s 19th and had specially requested for Walter to turn up. But Walter wasn’t\n" +
-					"too happy. He always considered himself unlucky for not inheriting their father’s property and\n" +
-					"constantly envied Alex. ",
-			"Later that evening, the mansion was lit in bright fashion and the attendees were all suited up, for the\n" +
-					"birthday dinner, awaiting Alex’s arrival. The gathering started getting restless; it was already an hour\n" +
-					"past the decided time, and Alex was still nowhere in sight. After a frantic search of the house and\n" +
-					"hundreds of phone calls, Clement called the police. The police arrived and after investigating for a\n" +
-					"couple of hours, declared that Alex had been kidnapped. On hearing this, Jessica was broke down and\n" +
-					"had to be consoled by Jesse. The police ordered that all the guests to stay put, till end of interrogation. ",
-			"The first one was Clement, who informed the police that he was occupied with planning of the party at\n" +
-					"Alex’s hotel. He secretly informed the police that he suspected Jessica and Jesse for committing this\n" +
-					"hideous crime, as he’d overheard Alex’s heated arguments with Jessica over her being close with Jesse,\n" +
-					"in spite of him having expressed his dislike. Saul then told the police that he’d gone to the bank to\n" +
-					"withdraw money to handle the payments for the “after party”, and ended up having an argument with\n" +
-					"the manager. He also expressed his doubts over Robert and Rowney for conspiring Alex’s kidnap as\n" +
-					"both were in dire need of money.",
-			"Upon interrogation, Robert claimed that he’d been asleep through most part of the day and had asked\n" +
-					"Rowney for medication. Rowney, who looked emotionally shattered, supported Robert’s testimony and\n" +
-					"said that he’d been busy with household chores. His prime suspect was Saul, whom he’d asked Alex to\n" +
-					"stay away from as he was from Green’s rival family and thus was up to no good! Moreover, on that\n" +
-					"particular day had seen him slip out of the house in a hurried, rather suspicious manner. ",
-			"Next up, Jessica, agitated, gave out that she’d gone shopping for Alex’s birthday gift, and that Jesse had\n" +
-					"driven her to the mall. Jessica strongly expressed her suspicion towards Walter, as he’d always been\n" +
-					"spiteful about Alex’s wealth. Jesse confirmed her statement. Walter stated that he’d been overburdened\n" +
-					"with office work that his step-father had assigned for him but he did not have any suspects as he barely\n" +
-					"socialized. The police later discovered Alex’s personal diary that contained Alex’s disappointment\n" +
-					"about Jesse’s involvement in his life and how his relationship was under ruins.\n" +
-					"A greed for ransom or the lust of two. Did half-blood and loyalty fail, pride or friendship outdo? Find\n" +
-					"the culprit and the sin responsible for the crime.",
+			"The first suspect that the police decided to interrogate was Dr Ezekiel Philip himself. He admitted that he knew that the victim was not at home that day since around ten in the morning, but did not report it at the time because he thought that Mr Hiremath had gone out. He had also tried to check in on him, but no one had answered the doorbell and the door was locked. However, he did not have a clear answer as to why he did not inform the police even when the victim had not returned at night. He also confessed to having prescribed sleeping pills for the victim when he had complained of suffering from severe insomnia. But further probing did not yield much result,other than that the doctor had an afternoon outpatient shift at the hospital where he worked on Sundays, for which he left his house at around 11am, and returned at 5pm. Moreover, Mr Hiremath seemed to have a cordial relationship with Dr Philip. The doctor also gave the police a bit of information that he thought was relevant: as he was getting ready to leave for the hospital, he saw from the window of his room a man in a blue uniform walking to the front door of Mr Hiremath’s house, and although he could not see clearly, he guessed that the person must have been the postman.  ",
+			"Based on the info that the doctor had given and his description of the postman- appearing around 25 to 35 years old, around 5’9” and well built- the police continued their search. When they enquired about the new suspect at the post office, they found out that the postman who delivered the letters in the abductee’s neighbourhood did not match the description given, being old and rather short and scrawny. The postman in question had taken a leave that day, and so the investigators went to his house. Upon reaching the location, they realized that the postman’s house was on the same street as the payphone from which the ransom call was made. While questioning the postman, they found that he had taken a leave because his wife was ill and was admitted in the ward at a nearby hospital. When asked about his whereabouts on the fateful day, he said that he had not done his rounds that day, Sunday not being a working day, or on the day after, as he was in the hospital with his wife, and had in fact just returned home from there. This claim was supported by the other people living in Mr Hiremath’s neighbourhood. He also had hospital bills with the dates given on them as proof of the same. However, he admitted to struggling and spending most of his earnings to pay off the bills. When asked what he knew of the victim, he said that he had an eccentric personality; sometimes he would be pleasant, but at other times he would be secretive, and accuse the postman of plotting to steal his money. The postman had also seen him standing at a lottery ticket shop next to the payphone when returning home a few days ago, and they had talked for a while. According to him, the victim seemed to be friendly at first, but as he talked about his house and family, Mr Hiremath began to act strange, and abruptly walked off. ",
+			"An investigation into the victim’s background found that Mr Hiremath had a sister named Karuni who lived in Shimoga with her husband and children. She was a shareholder in the family business, and drove over to Bangalore to visit her brother occasionally. The siblings once had a dispute over the inheritance of their family property. The police also found that the evening before the victim had disappeared, Ms Hiremath and her family had visited him. The fact that the kidnapper seemed to know the house and the victim well gave them more reason to suspect her. When they contacted her though, she told them that she hadn’t gone to his house since that evening and that they had returned to Shimoga by car the next day itself, but there was no way to confirm this claim. On further questioning, she told them about the accident that claimed their parents’ lives, and how he had felt responsible for it. She remembered him talking about how he would be punished for ‘killing his parents and taking what was theirs.’ Mr Hiremath had frequent nervous breakdowns after this incident, and had undergone psychotherapy for a few months on his sister’s insistence. ",
+			" The last suspect that both Dr Philip and the postman had talked about was the maid who worked in Mr Hiremath’s house during the weekend. The postman claimed to have heard her when he came to deliver the post on Saturdays. The day before the abduction, he had heard her talking to herself. She had a deep voice, ‘which sounded more male than female’, and she had sounded angry. The way she talked, the postman believed that she was fighting with someone,but he could not hear anyone else other than her. According to him, she had kept demanding a raise in wages, and that if she didn’t get it, she would cause trouble. The doctor also said that he had seen her silhouette at the window upstairs, and that she seemed taller than the average woman. Both men gave her name to be Kashi, but on searching, they found that the woman did not exist. ",
+                       " Three days after the victim was reported missing, Dr Philip called the police station to say that he had suddenly come back home. Mr Hiremath was given a medical examination which showed that he had no signs of injury. When questioned, he did not remember what had happened to him. He also said that he had bought a lottery ticket for a prize worth Rupees 54 lakh around a week before, and ever since then had been receiving voice mails from a man who kept threatening him saying that he knew all about him and would punish him for his sins if he did not give him money. The day Mr Hiremath disappeared, he had woken up as per his regular schedule, and was reading the paper when he found out that he had won the lottery. Then, he had heard the bell ring, and everything blacked out.\n"+
+"What had happened to Mr Hiremath? Who abducted him, and who was the voice making the threatening phone calls? Is this a tale of crime for money, or does it go much deeper than that?  ",
+
+
 
 
 			//STORY B CLUES
-			"Mr. White, once the top dog in shipping business, was now going through a period of crisis. His\n" +
-					"company’s stock had plummeted ever since he refused to quickly adapt to the inevitable changes in the\n" +
-					"industry. Just last month, the company was in the news for having failed to pay off overdue debts of\n" +
-					"around 5 million dollars to the Federal Bank of Alderaan. “Listen up young lady! Achhoooo! I know\n" +
-					"what you are thinking! But let me tell you this ain’t the way I do things. A man must have certain\n" +
-					"principles! This is a job of a scumbag like that Brown fella waiting outside!” Saying so, he stormed off.\n",
-			"Once an ex-business partner of Mr. Black, Mr. Brown was the person in charge of the Alderaan Harbor\n" +
-					"Project. The project had run into various legal hassles for gross misappropriation of state funds. The\n" +
-					"court had recently passed a verdict ordering the company involved (i.e. Mr. Brown’s) to cough up a\n" +
-					"fine of 4.25 million dollars. “Granted my past record reflects poorly on me. But there is no way I would\n" +
-					"do something like that to Mr. Black, or anybody for that matter! I am a father too and my heart goes out\n" +
-					"to the Black Family! Trust me please! Achhoooo!” “One sympathetic scumbag! or a vengeance seeking\n" +
-					"ex?” thought Marge as Mr. Brown left the room.\n",
-			"“Achhoooo! Sorry detective! Caught a horrible cold from my trip to Luverne last week.” Saying so,\n" +
-					"Mr. Grey put up a weak smile. A fine young man albeit with a catch; he suffered from a gambling\n" +
-					"addiction. Two and a half years ago he had been fired from Mr. Black’s company for embezzling\n" +
-					"company funds to support his addiction. 9 months in the Alderaan Rehab Centre had worked well for\n" +
-					"him. Now the founder of an industrial equipment firm, he was slowly pulling his life together. Except,\n" +
-					"Marge’s sources told her that the firm was soon headed for closure with outstanding debts of 4 million\n" +
-					"dollars. When confronted, he grudgingly replied, “I could use the money, yes! But even I wouldn’t\n" +
-					"stoop so low as to kidnap an innocent kid!” “In the end it always boils down to money, doesn’t it?”\n" +
-					"wondered Marge.\n",
-			"“5 million dollars, that’s sweet money, but let’s be practical. Aldicorp’s stocks are better than ever and\n" +
-					"we might even surpass Mr. Black’s company at this rate! I am the last person that needs the money!\n" +
-					"Whoever is collecting the ransom tonight, it ain’t me! You are wasting your time, detective! Now if\n" +
-					"you would excuse me, I have more important things to address! Achhoooo! God! the cold!” moaned\n" +
-					"Mr. Green as he left.",
-			"“Hello sweetie! New to the force, aye?” greeted the flamboyant Mr. Pink; an ex-convict who had served\n" +
-					"3 years in the Alderaan State Prison for robbery. “Kidnapping ain’t exactly my style sweetie, my records\n" +
-					"would tell ya that much! If you have dreams of pinning this mess on me, forget it! Mr. Pink might be\n" +
-					"the big fish! But he ain’t your man this time! Now if you would excuse me sweetie. Me and my babe\n" +
-					"have a date tonight. Good luck with the case!”\n" +
-					"“…to be dropped below Sailor’s bridge at 10:30pm the next day”, before the call was cut.\n" +
-					"Marge leaned back in her chair and smiled. In her head the case had been solved! The guilty was one\n" +
-					"among the five suspects. “And here’s to you Mrs. Robinson….” hummed Marge.\n" +
-					"Who was the kidnapper and why? Also identify which of the seven sins, was the driving force behind\n" +
-					"the crime.",
+			" Monica, who was already annoyed that Gunther had brought flight germs into her house, said fiercely, ”Listen, detective, I had nothing to do with Joey’s murder. Hell! I didn’t even leave New York as I was busy managing my restaurant.” When asked if she had been in touch with Joey, she said,” Well, whether I talk to my friends or not, should be none of your concern!” ",
+			"Chandler, gobbling tic-tacs, jokingly said, ”Did he eat himself to death?” When asked about his whereabouts in the past year, he replied, ”Well, I did visit him a couple of times….”. Gunther interjected, ”May I ask about what, the two of you discussed?” Chandler dodged the question by saying, ”Instead of answering, can I offer you a sarcastic comment?” Gunther smiled and moved on to the next person.",
+			"Phoebe, without much change in her expression, said, ”Well, whenever I used to think of Joey, I used to hear these voices in my head, saying not to trust Chandler. Also, there were times, when his (Chandler) aura felt as though he would bring about a major catastrophe.” When asked about her activities, the past year, she exasperatedly gave her diary saying, ”Look! I haven’t missed a single entry. If you want, you can go through all three sixty-five of them! It will prove that I haven’t left New York in the past year!” ",
+			"Ross, who looked very uneasy, said, ”See, I’m a very busy man. I have to give a presentation on fossils today…”. Gunther a bit annoyed, replied,” Sir, please stick to answering the question at hand: Did you or did you not meet Joey in the last few months?” ”Well I do wish I could have met Joey, but as I said, I am a very busy man. I have to give a presentation on fossils today...”. ",
+			"Rachel, who worked as a fashion designer said,” Look pal, let’s forget about Joey for a second and look at your clothes instead! They are very out of fashion, detective! If I may suggest, lose the hat, it doesn’t suit you.” Gunther, biting his teeth, replied,” Madam, you haven’t gone to work, the past few months. May I ask, why?” Rachel hesitatingly replied, ”Maternity leave.”\n"+ 
+"After taking in the statements, Gunther sipped some coffee and smiled, for he had figured out who the real killer was. Can you?",
 
 
 			//STORY C CLUES
-			"Within an hour of the incident the forensic lead comes to you with an oral report. She explains that this\n" +
-					"was definitely a case of arson. There was an obvious accelerant trail but no clean fingerprints on the\n" +
-					"scene. She also shows you half a burnt cigarette, a playing card and a pink sea shell that was bagged as\n" +
-					"potential evidence near the crime scene. ",
-			"You interview George Bluth, successful entrepreneur and proprietor of the stand. The grey-haired, potbellied\n" +
-					"man is visibly distraught and tells you that this has been a major loss to his business. When you\n" +
-					"ask him who could have had a motive to target him, he immediately mentions his competitors; the\n" +
-					"Sitwell brothers. They had apparently started their own Frozen Banana franchise recently and Mr. Bluth\n" +
-					"tells you that that they must have resorted to dirty tricks to get an edge. Upon asking him for an alibi,\n" +
-					"you find out that he was sound asleep at home.",
-			"George’s wife Lucille was called to the scene of the crime as well. The tall statuesque woman, in her\n" +
-					"fur coat and designer heels looks very out of place at the crime scene. She curtly informs you that she\n" +
-					"doesn’t know anything about this arson nonsense and that the police better solve the case quickly\n" +
-					"because the insurance claim won’t go through until then. When you ask her to account for her\n" +
-					"whereabouts she dances around the question. After some more prodding she eventually caves, “I was\n" +
-					"at the diner with my Nicotine Anonymous sponsor - not that it’s any of your business!”. “If you want a\n" +
-					"suspect, take a look at those Sitwells,” she throws behind her, storming off. ",
-			"You next question Michael Bluth, only child and heir to the Bluth business. As he walks towards you,\n" +
-					"you see him throwing dark looks at the Sitwells. You converse with him politely and learn that he’s an\n" +
-					"MBA graduate and that he’s been helping his father with the business. “I’m not too happy with the way\n" +
-					"my father is running things but he’s gotten us this far”. You also learn that he was out drinking at the\n" +
-					"pub last night. When you ask him who he thinks could have committed the arson he thinks for a moment \n" +
-					"before regretfully answering, “I don’t think anyone would have actually set fire to this place”. ",
-			"Later that day the Sitwell brothers, competitors with their own Frozen Banana franchise, arrive at the\n" +
-					"scene. They offer their condolences to an unhappy Mr. Bluth before approaching you. They admit that\n" +
-					"they haven’t been doing as well as they’d hoped but that there’s nothing wrong with some healthy\n" +
-					"competition. You ask them to account for their whereabouts before and after midnight. The older\n" +
-					"brother, Stan, tells you that he was out of town on a business trip and only just arrived two hours ago.\n" +
-					"The younger brother, Sam tells you that he was in his office Skyping with a partner in Beijing.\n" +
-					"Who was the culprit and why? Also identify which one of the seven sins, was the driving force behind\n" +
-					"the crime.",
+			"Moving ahead with the interrogations, first up was Tom, a man in his early 50’s, a patient at the ward for the last 6 years. Interrogations revealed that Tom and Ms. Wilkinson were unnaturally close and as she was planning to transfer out of the facility, Tom got paranoid about the fact that she could just let go of him, didn’t even care about his emotions and he was just stuck there. He claimed to have poisoned her by coating her water glass with a layer of bromadialone and she being unaware of this, had a sip and died of a seizure. And this was the end of his interrogation. ",
+			"Almost having been there for a decade, former billionaire John was next in line. Before being admitted, John’s last investment banking venture went haywire because of which he seemed to have developed this mental illness. He says that the ward authorities, being in debt, were sucking every penny that remained of his though everyone thought he was ready to go. He knew Ms. Wilkinson was the deciding head and came to the conclusion that if he silently suffocated her to death, he could leave this wretched place and that being in jail or giving up on life is better than being a lab rat here. By doing so he also wanted to bring out the truth about the authorities. This is how his interrogation session ended.",
+			"Certainly known for being very silent, composed and level headed, Macey was up next. Her history records being issued a death sentence for a murder she claimed to have committed as a pseudomaniac. She claims during her interrogation that she was never a psuedomaniac and only pretended to be one as an escape route from her impending death.  She also said that Ms. Wilkinson was the only one who found out about this two weeks back and was soon going to report it to the police. As she obviously did not want to get out and succumb to her sentence, she said she killed Ms. Wilkinson by exchanging her vitamin supplements with a mild dose of morphine tablets which led to her slow and unexpected death two weeks hence. ",
+			"Eva, a famous French drug lord’s wife and a very observant woman, was admitted 4 years ago because she had developed this illness due to drug overuse. Recently, her health had been deteriorating and she hadn’t eaten in days. She also had a visitor who snuck in a newly synthesized drug which cured the person of his or her pseudomania but could prove to be lethal for those who did not suffer from it. Mr.Ston’s next question was; ”So, are you telling me you injected Ms. Wilkinson with the drug?” She says, ”Yes, and the truth is a weapon….” and passes out on the table. ",
+			"Yet, after four of the suspects were done with their interrogation, Mr.Ston was still clueless as to who the culprit was. Marcus was Ms. Wilkinson’s abandoned son. His childhood had been deprived of all the joys provided by a mother just because she didn’t want him. Once he was admitted here, he found out that this was his real mother, a wave of vengeance lashed over him and all he seeked for since that day was revenge. His interview wasn’t very fruitful. All he repeatedly said was ”You never cared for me” over and over again. Though the last interrogation didn't hint at much, Mr.Ston knew exactly who the murderer was. ",
 
 
 			//STORY D CLUES
-			"On the 23rd of September, the calm of Ichiriki Ochaya was disrupted by a raging fire. The flames almost\n" +
-					"completely consumed the teahouse, and the geisha presenting at the time was afflicted with third degree\n" +
-					"burns. Chief Soichiro Yagami was assigned the task of investigating the case. A lighter with the initials\n" +
-					"H.M was found near what was the dressing room before the fire destroyed it. Yagami immediately\n" +
-					"recognized it as a case of arson and went on to question the guests who were present that evening.\n" +
-					"Identify the culprit and which of the seven sins was the driving force.\n",
-			"Mother\n" +
-					"Mother peered at the audience nervously and was dismayed to find that pig Tatsuya ogling Mameha.\n" +
-					"Half an hour later, after the dance, she saw Tatsuya making his way to the dressing room. She wasn’t\n" +
-					"going to let him sway that naïve geisha again, so she followed him but was startled to find Yuki lurking\n" +
-					"near the door.\n" +
-					"Flames danced before Mother's eyes and she rushed out of the ochaya.\n" +
-					"\"Where were you before the fire started?\" The chief made her nervous, this whole affair could\n" +
-					"permanently damage the reputation of her okiya.\n" +
-					"\"I was going to the dressing room to ensure Tatsuya didn’t go and sway that fool Mameha into falling\n" +
-					"for him again but I was surprised to see his wife waiting in the shadows, considering women don’t\n" +
-					"usually visit the ochaya\" she replied. I hope the fire has taught Mameha a lesson, it served her right for\n" +
-					"being this irresponsible, Mother pondered.",
-			"Tatsuya\n" +
-					"I will see her today for the last time, thought Tatsuya. He entered the familiar setting of the ochaya and\n" +
-					"went straight to the dressing room. When Mameha saw him, the man who deceived her, she lashed out.\n" +
-					"\"I know what you've done Tatsuya, first me and now Hatsumomo? Do you have no shame? You will\n" +
-					"confess to your wife tonight, or I will\". This upset Tatsuya and he stormed out.\n" +
-					"After the geisha's dance he got up and walked away from his table. When he turned around he was\n" +
-					"horrified to spot Yuki and Hatsumomo approaching him from different directions.\n" +
-					"Flames danced before his eyes and he rushed out of the ochaya.\n" +
-					"\"I’m aware that you got up to leave during the interval of the show, where did you go during this time?\"\n" +
-					"interrogated Mr. Yagami the day after the fire burnt Ichiriki down.\n" +
-					"\"I just got up to get some fresh air and I couldn’t have done anything during that time, I didn't even\n" +
-					"have a lighter with me. Why would anyone try to hurt Mameha, it makes no sense.\" replied Tatsuya",
-			"Yuki\n" +
-					"Today I'll confront him and I'll show that shameless Geisha that I'm no fool, mused Yuki. On reaching\n" +
-					"the ochaya she spotted Tatsuya and seated herself in a corner away from him. It broke her heart to watch\n" +
-					"him look at the geisha with raw lust. When he got up to leave, she knew this was her chance to end\n" +
-					"things once and for all. When she got to the dressing room she was shocked to find Hatsumomo\n" +
-					"snooping around, hidden from sight. What was her sister doing here, thought Yuki as she waited in the\n" +
-					"shadows.\n" +
-					"Flames danced before her eyes and she rushed out of the ochaya.\n" +
-					"\"What inspired you, a woman who has never visited an ochaya, to suddenly go to Ichiriki yesterday?\"\n" +
-					"asked chief Yagami the next day.\n" +
-					"\"It isn't a sin for a woman to visit an ochaya in the twenty first century, Mr. Yagami. I was there to see\n" +
-					"the show like everyone else. I wasn't aware my sister and husband were there on the same day.\" she\n" +
-					"replied. No one needed to know my husband was a cheating scoundrel, she thought cynically.\n",
-			"Hatsumomo\n" +
-					"She didn’t like sneaking behind her sister's back to be with Tatsuya but what enraged her was\n" +
-					"the possibility that he was still seeing that Geisha Mameha. Tonight she would go to the ochaya and\n" +
-					"bring an end to her doubts. This was going to be a long exhausting evening, she thought as she lit her\n" +
-					"cigarette with a match and prepared herself for her day out. A while after the show had started she saw\n" +
-					"Tatsuya leave and decided to follow him. Was he reverting to his old ways, she wondered.\n" +
-					"Flames danced before her eyes and she rushed out of the ochaya.\n" +
-					"\"What were you doing during the interval of the show at the ochaya yesterday?\" asked Chief Yagami.\n" +
-					"\"I went to congratulate the geisha on her stellar performance\" Hatsumomo replied. She knew her sister\n" +
-					"had seen her there but she was certain that making an open display of her jealousy to the detective\n" +
-					"would mean trouble.",
+			
+                         "Almost a year ago, Alice, Dinah and Connell used to be really close friends. At that time Dinah and Connell were in a relationship. Alice always had a thing for Connell though. Dinah and Alice used to be small time models then, under the mentorship of the designer Bernard, striving to carve a place in the industry. After Alice got her breakthrough in the fashion industry and her popularity increased, Connell used his charm and became really close with Alice. Dinah wasn't so lucky and the fact that Connell started running behind Alice wasn't much help either. After a few months, Alice and Connell moved in together which infuriated Dinah to no end. It turned out that Connell had OCD, and that too a very severe case of it. Alice slowly realized that Connell was a really jealous person and at the same time she met Carl Robertson, an influential and successful actor. This, combined with everyday issues with Connell, made her drift towards Carl. Rumour had it that they were remarkably close and tension arose between Alice and Connell as a result. Meanwhile, Carl persuaded Alice to join the film industry which upset Bernard who had always prided himself on Alice’s accomplishments and liked to take credit for her success. Caught amidst all this, Alice had decided to have a reunion of sorts to mend all these broken fences. This was how everyone came together that fateful night, although Carl turned down the invitation since it clashed with an important shoot. ",
+
+                       "The police began their investigation by examining the bodies. The death of Alice seemed to have happened as a result of a fatal wound she sustained due to a fall from the balcony above. One entrance to the balcony was from inside the house, on the first floor. There was also a metal ladder on the other side which acted as a fire exit and connected the balcony to the outside of the house. From her condition, Dinah appeared to have died from some kind of poison. After a thorough search of the crime scene, a bottle of arsenic was found near Alice's body, close to the ladder.  A bottle of cyanide was also found hidden in Dinah's dress. The police also noted four glasses of wine kept on the four corners of the table in the living room. One of the glasses was half empty while the rest were full. They were immediately sent to the lab for examination. Then DI Joe sat down to take the statements of the people present in the house. ",
+   
+                        "Connell: ”Day before yesterday, Alice and I decided to call everyone here and sort out the issues we had. Rosy, the maid has been in Alice's service for the last 8 years and was very dear to her. She trusted her with her life. Today, Dinah came 20 minutes late. Typical of her! But still earlier than Bernard. To be honest I wasn’t really in the favour of this meeting but I just went along with her decision. Bernard brought a bottle of wine for the evening. I never really liked that guy. He’s a mean son of a bitch, always taking credit for all of Alice’s work. As for Dinah, she was really pissed off with both Alice and me. I think she was really jealous of the fact that Alice became successful and she didn't. She was always like that. Anyways, so we all sat down and talked for a while and then Bernard walked into the next room with Rosy to pour out the wine. I excused myself for a piss and went upstairs. I came out of the washroom and umm... felt like checking the windows and doors since it’s so cold outside. It took me around 10 minutes to get to the door to the balcony since it’s in the other corner. I heard a scream and then this thud. I ran to the railing and saw Alice lying on the floor below. I was startled. It felt like I couldn’t move. As soon as I regained my senses and came down running, shouting at the top of my voice for someone to call an ambulance and ran out the main door. I remember Bernard shouting and searching for his phone frantically. Rosy was beside him covering her mouth in horror. I ran to Alice's body and oh my God I knew right then that I’d lost her.” ",
+
+                        "Rosy: ”I don’t know what to say. Miss Alice was the kindest person I ever met. She told me about the evening gathering yesterday. Mr Bernard and Miss Dinah are both frequent visitors and they feel quite at home here.  After everyone arrived, Mr Bernard came to the kitchen to pour out the wine. A glass fell from his hand and broke and I had to clean up the mess. While I was doing it, we heard shouting from the living room. Miss Alice and Miss Dinah seemed to be having an argument. I heard Miss Dinah saying that she wished Miss Alice was dead. Mr Bernard rushed out to the living room. I went there after some time and found Miss Dinah sitting alone in the room without any sign of either Miss Alice or Mr Bernard. I asked her if she wanted some wine and she nodded. So I brought her the wine tray. I left the tray there and went back to the kitchen to prepare the dinner. The next thing I heard was loud banging on the main door. I ran to respond to it and Mr Bernard just burst into the room. He told me to call an ambulance, that Miss Alice fell down from the balcony. I looked at Miss Dinah and she was surprisingly quiet. I tried shaking her and she just tumbled to one side. I checked her pulse frantically and my blood froze. There was no pulse. Then I saw a glimpse of Mr Connell rushing towards the main door. He was also shouting. I called the Ambulance and Police.  She also said that Connell has some really weird habits. She has seen him numerous times opening and closing windows and doors. And that she heard Mr Bernard and Miss Alice argue a few days back. They were talking about how close Miss Alice and Mr Carl were and Miss Alice said that Mr Carl is a really nice guy. ",
+
+                       "Bernard: ”He killed her! Connell - that bastard! The guy's insane! Okay, I will start from the beginning. I came here because I’d had enough of all these arguments. I know I was pissed off with her because it was me, ME, who took her from streets and turned her the supermodel she was. I invested so much in her, and for what? For her to ditch me for some manipulative hotshot actor? Simply leave me like that! Anyways we shouldn’t speak ill of the dead. I feel really sorry for her. I was in the kitchen when I heard Dinah shouting at Alice, threatening to kill her. I went in to intervene but Alice started shouting back at me. The situation didn’t improve much and I rushed out of the main door to get some fresh air and calm myself down. I saw Alice going towards the stairs in a fit of anger. I went out and was just leaning against my car when I heard a shriek and a thud. I ran round the corner of the house and saw Alice lying on the brickwork, her head smashed. I looked towards the balcony and saw Connell standing near the balcony door. I ran back to the house and banged on the door, but, no one responded so I ran to the window. It was terribly cold outside and the window was foggy. I wasn't able to see anything inside. I tried wiping the window and peered inside and I saw Connell peering nervously down the stairs. Then, when Rosy opened the door, I rushed inside and called the ambulance. ”\n"+ 
+"The next day the reports came back from the lab. It stated that Dinah had died from arsenic poisoning. They had also detected cyanide in the wine in one of the glasses. DI Joe saw the report and exclaimed, ”Now we know exactly what happened!” \n"+
+"How did the two murders happen? And who was the culprit? ",
+
+
 
 
 			//STORY E CLUES
-			"Abhiram said that he was the one closest to the aisle of the row and had gone to buy food for the gang.\n" +
-					"The order consisted of soft drink for Abhiram, popcorn for Bhabesh, peanut butter sandwich for Chelsee\n" +
-					"and a samosa for Dhruv. Abhiram was sitting next to Chelsee throughout the movie, when asked about\n" +
-					"his relationship with Dhruv he said that they were business partners in a joint venture, however the\n" +
-					"same could not be said about Chelsee and Dhruv. When asked if Abhiram had consumed any food\n" +
-					"besides his own, he said that due to his braces, he could not eat the other foods available.",
-			"Bhabesh had claimed to be sitting between Chelsee and Dhruv during the movie. He had not had the\n" +
-					"cold drink, due to him being a diabetic. However, he did have a bite of the sandwich and had passed\n" +
-					"the drink to Dhruv. When asked about his relationship with Dhruv, he replied saying that they were\n" +
-					"colleagues at work and that recently Dhruv had been distracted at work for some personal reasons, about\n" +
-					"which he did not divulge in further.",
-			"Chelsee was sitting between Abhiram and Bhabesh. Chelsee was Dhruv's ex-girlfriend. However,\n" +
-					"Chelsee claimed that everything was amicable between them and that there was no bad blood. Chelsee\n" +
-					"ended up having the cold drink as soon as Abhiram had sat down to check the flavour and then had\n" +
-					"given the drink back to Abhiram; which she then had later, passed to Dhruv; 20 minutes into the movie.\n" +
-					"Chelsee didn't have the samosa as she didn’t like oily food.\n",
-			"After a background check, it was found that Dhruv, was allergic to peanuts and its by-products. All \n" +
-					"eyes were on the ex-girlfriend; knowing Chelsee could have easily done this in the pitch black theatre.\n" +
-					"However, Bhabesh had the sandwich as well and claimed not to have given the sandwich to Dhruv.\n" +
-					"However, no solid evidence is present to support his claim.",
-			"On further investigation, some traces of poison were also found on the floor. During interrogation,\n" +
-					"Abhiram was composed and cooperative, Chelsee broke down completely while Bhabesh accused the\n" +
-					"police for unnecessarily harassing him.\n" +
-					"Who committed the murder and why? Also identify which one of the seven sins, was the driving force\n" +
-					"behind the crime.",
+			"The Deputy Head Guard Varys was the first suspect. A man standing about 5'6 inches and stout. Had been a working guard at the Asylum for the last 22 years. Was next in line for the post of Head Guard. He was one of the first people to find Head Guard Davos lying dead on the table. Immediately notified the whole security force about it. He found the body around 4 in the morning and he was on the upper floor on patrol duty along with Sergeant Greyworm at the supposed time of murder. Had been behind the position of the Head Guard for quite a while. Detective Tyrion had an animated conversation with Varys on his relationship with Davos and Tyrion casually remarked that being in an Asylum like this could turn the sanest of people insane.",
+			"Arya. Or the girl with many faces. Suffers from Multiple-personality Disorder (MPD). Had gone around on a murder spree around the city claiming she was somebody else. Each time a different person. She is locked up in the room adjacent to that of the Head Guard. However, she was sleeping at that point of time and even the room is locked from outside and the keys were with the Deputy Head Guard. Has often had a stifled relationship with the head guard as she tried to attack him claiming he was responsible for her brother's death. She claims that she heard nothing. ",
+			"Hodor the sleepwalker. A Homicidal sleepwalker. Has a record of having killed over 20 people, sleepwalking right through all of them. Claims that he has little or no memory of any of those murders and was acquitted of all the murders as he was supposedly hypnotised into killing these people by a crazy hypnotists Bran 'The Raven'. Was sound asleep most of the time and only one other person has access to his room, the official psychiatrist.",
+			"Daenerys. A schizophrenic young girl, who goes around fantasising about Dragons and believes she is the descendant of some famous dragon Dynasty. Had burnt her whole family down and claimed that her dragons did it. Is mostly locked up in her room where she spends a lot of sleepless nights chanting about being the queen of imaginary lands. Has had violent bursts of anger against various employees of the asylum including Davos.",
+			"Melisandre, the Chief psychiatrist of the asylum. Has worked here at the Asylum for quite a while and tends to most of the patients at the Asylum. Usually goes for a round at night around in the rooms to check in on the vitals of the patients. Is also a trained hypnotist. Head Guard Davos never has had full faith on her because of her uncanny ways with the patients and has tried to get her ousted a couple of times. Was also quite interested in the works of Bran 'The Raven'. Claims that she was up in her room and was listening to the Beethoven's Fifth Symphony on her Home Theatre Set and hence heard nothing from the Head Guard's room.\n"+
+"Detective Tyrion had a walk around the corridor and went over the statements of each of the 5 suspects a couple of times. He finally came to a conclusion as to who the killer was and how they went about doing the crime.\n"+
+"Who is the murderer? How did they go about it? ",
 
 
 			//STORY F CLUES
-			"The body was first spotted through the window of the scullery by the housemaid, Rose, who\n" +
-					"immediately alerted her mistress. Rose was a young, pretty thing of 22, who caught the eye of many\n" +
-					"men in the neighbourhood, including her late master. She claimed to have been unwell due to nausea\n" +
-					"on 25th September and had retired to her room post her afternoon chores, only leaving its confines to let\n" +
-					"Robert’s younger brother at 7pm, his friend at 8:30pm, and his wife at 9:30pm into the manor later that\n" +
-					"evening",
-			"Robert’s younger brother, Samuel Winchester, had worked under him for almost a decade. However,\n" +
-					"he had never been particularly close to his sibling, and their conversations pertained strictly to work.\n" +
-					"Since the Winchesters were without child, Samuel would gain the most financially after Robert’s\n" +
-					"demise, being next-in-line to the inheritance. He claimed to have met his brother in the study that\n" +
-					"evening for something work-related, but had left immediately since Robert insisted he was tired and\n" +
-					"needed rest. ",
-			"Jacob Simmons was Robert’s closest friend, who had also been a business partner until a few weeks\n" +
-					"ago, when they abruptly parted ways in business. Jacob was in a financial crisis, and after a short period\n" +
-					"of no interaction, he had approached Robert that evening to request monetary support. He claimed to\n" +
-					"find Robert in the study, pacing up and down the room, visibly distraught over his wife discovering his\n" +
-					"scandalous affair with the housemaid. After consoling his friend and sharing a smoke, Jacob left the\n" +
-					"manor.\n",
-			"Ira Winchester was as prim and proper a socialite as the position of Mrs Winchester required her to be.\n" +
-					"Though she had been a perfect wife, her relations with her husband were far from perfect. Their\n" +
-					"marriage was in tatters, and she had overlooked Robert’s faults for too long. Ira claimed to have left the\n" +
-					"manor earlier in the afternoon that day to meet a childhood friend, and had returned to find an empty\n" +
-					"bedchamber. Assuming the lights in the study meant that her husband was working late, which wasn’t\n" +
-					"uncustomary in the slightest, she switched off the lights and retired for the night.\n",
-			"Will Hudson, Mrs Winchester’s childhood friend, was once a business partner of Winchester\n" +
-					"Enterprises. On being cheated by Robert, Will proceeded to set up a rivalling business, vowing to ruin\n" +
-					"Robert. Now a successful businessman, he is extremely powerful and influential. After Ira Winchester\n" +
-					"left his house, he claimed to have travelled to a neighbouring city, and his alibi was confirmed by the\n" +
-					"investigating team.\n" +
-					"On receiving the autopsy of the dead body, all clues and facts were put together, and a team of detectives\n" +
-					"zoned in on the culprit. Who is responsible for Robert Winchester’s death, what was their motive, and\n" +
-					"which of the seven deadly sins was the driving force behind this murder?",
+			"Patrick Reed was a successful senior manager at Gray Holdings Inc. He was a brooding man; his wealth and his love for extreme sports, coupled with his sweet talking and suave mannerisms was what drew freelance writer, Amelia Kruger to him. Her regular job had her closing deals and brainstorming over them, so Patrick was an easy getaway. She had an enchanting dimpled smile, highlighting her perfect sharp features and strawberry blond short hair. They had a wild lust and a comforting love for each other. Except for the occasional drunken outbursts from Pat and the fights that ensued because of his insane jealousy for Amelia’s ex- boyfriend, things were going smooth. Until a month ago. Amelia had abruptly left him. He knew she had gone back to her ex. He had seen their text messages on her phone the morning she left. ",
+			"Tony Kahill and Valentina Prescott were madly in love with each other. The lean, charming, blue-eyed Tony was much too good-looking for a guy. He pulled his slightly long hair back in a small pony. He worked at Gray Holdings Inc., and it was at a company get-together that he’d met the gorgeous Miss Prescott. She worked at a prestigious pharmaceutical company as a research intern. Her commendable confidence and brains matching her beauty was what clinched the deal for Tony. In no time, they bonded over the same tastes in music, books and traveling. Their love grew to the point where Antony had even considered proposing marriage, which Valentina secretly knew of. Which was why the shock was immense when he suddenly broke up with her while on one of his flying tempers, and left for good. She was heartbroken and devastated. Her straight-faced demeanor though, betrayed none of the hatred she suddenly felt.",
+			"Detective Ethan Sawyer ushered in Ira Lawton to questioning. She was Alayna’s maid of honor and Edward’s best friend. Though the wedding came as an unwelcome reminder that she could never have Ed, she found solace in the fact that it was her own closest friend Alayna who’d get him.\n"+ 
+"”Where were you, at say, 7pm last night Ms. Lawton?” enquired Detective Sawyer.\n"+
+"”There were some last-minute changes with the floral arrangements and Alayna had agreed to meet me at the florist’s, but she didn’t turn up, and then later I headed over to the spa” a shaken Ms. Lawton confirmed.\n"+
+"He needn’t know about the deep conversation with Ed the previous morning, or her drive through town with Alayna, she thought to herself.",
+			"Patrick Reed was brought into questioning. His was one of the last calls dialed from Alayna’s phone.\n"+ 
+"”How did you know Ms. Kingsley, Mr. Reed?” began Detective Sawyer.\n"+
+"”She was a junior at the office we worked at together, Detective” replied Patrick.\n"+
+"”And what exactly do you have to say about the phone call to you the night she died?”\n"+
+"”Alayna had a troubled demeanor for a while. She suspected that her fiancé might have been cheating on her. We were pretty good friends despite being at different positions in the company hierarchy. She said she’d wanted to talk and would come by my place.”\n"+
+"”Where were you at around 7pm, Mr. Reed?”\n"+
+"”I was at a restaurant drinking with my girlfriend, but I was feeling a little queasy, so I went over to a druggists’ and bought a few meds; I’d told Alayna we couldn’t meet”. He showed the prescriptions.",
 
-
+                      "Valentina Prescott, who’d found the body while walking by the woods, besides being Patrick Reed’s half- sister, was next to be questioned. Sawyer knew what they said about the person finding the body.\n"+
+"”What were you doing near the woods Ms. Prescott?”\n"+
+"”My colleague and I had had an intense thesis debacle and I was out walking trying to calm my mind, when I heard gagging sounds. I went looking and to my horror, found the body, frothing through her mouth. It was too dark for me to see anything else clearly. I immediately called the police”\n"+
+"Upon further investigation, it was found that the small paper read ”We Know, AK”. \n"+
+"Who committed the murder, and how?",
+			
 			//STORY G CLUES
-			"Alfred was the butler .He served with Thomas Wayne in the great war and before Thomas Wayne died,\n" +
-					"he promised him that he would take care of his prized possessions- his three sons. He also helped\n" +
-					"Thomas Wayne design the Wayne manor. But he was very sceptical of Bruce Wayne selling the\n" +
-					"company, feeling it would not be something his father would approve of. He also felt that Bruce Wayne\n" +
-					"was ruining his family's reputation for not taking action against Selina as there were rumours she was\n" +
-					"having an affair.\n" +
-					"That day he was in charge of providing the food for the guests and making sure everyone was having a\n" +
-					"great time.",
-			"Selina was Bruce's wife .She had been married to him for the past 5 years. She was supposed to marry\n" +
-					"Keaton but her father insisted she marry the owner of Wayne Enterprises. She was supposed to help\n" +
-					"Alfred with his work and was seen interacting throughout the party. ",
-			"Christian Wayne, the eldest son of Thomas Wayne, is an alcoholic. He was supposed to take control of\n" +
-					"Wayne Enterprises but he fell from grace when Thomas found out he was on drugs. He lived with his\n" +
-					"younger brother Bruce. He spends most of the days in a drunken state and usually comes back to his\n" +
-					"room at night, without people knowing what he was up to.\n",
-			"Keaton Wayne, the youngest son of Thomas Wayne, was a war hero. He had saved the lives of several\n" +
-					"of his comrades, during the war. Now at home, he was about to get married to a girl chosen by Bruce.\n" +
-					"He was offered control over Wayne Enterprises, but he declined stating he had \"honour\".",
-			"Bruce Wayne ,the most loved son of Thomas , was always favoured by his father. He was the owner of\n" +
-					"the company and the apple of the eye of the Wayne family. .But recently he had an epiphany; when he\n" +
-					"came to know of his brother's heroic act. He wanted to sell his company to do something more\n" +
-					"meaningful in his life. Who committed the murder and why? Also identify which one of the seven sins,\n" +
-					"was the driving force behind the crime.\n",
+			"Mr Mason was a great man in a dirty old town. A teetotaller amongst drunkards. His only vice was religion, and yes, religion was a vice in this town. Mason was the self-appointed protector of this town. No drunk sheriff could ever challenge his absolute authority, Justice under Mason was swift, harsh and Christian in nature. The pastor lost his importance and the local church became just another building. Daniel Mason was a leader, a shepherd of his own cult. So when he was shot, half of the town descended into grief and the other half roared with joy, no more prohibition for the drunkards and the brothel madams would see their now empty dens come back to their former glory. ”Frankly, anyone in the town could have killed that son of a bitch, myself included..” thought the sheriff, when he heard of Mason's death.\n"+
+"The bar was full of crooks and thieves; it was ironically also the sheriff's favourite watering hole. The same people he threw in the jail cells were his drinking buddies, that was just the nature of this town. However there were some new faces here: dim-witted gunslingers brought in from the nearby towns by the mayor to protect his interests.  ”These boys wouldn't be half as terrifying without their guns,.”  thought the sheriff. The mayor's muscle had started its reign of terror soon after Mason's death. The sheriff would have loved to nail one of them for the murder, if only he wasn't on the mayor's payroll himself.\n"+
+"The sheriff dreamed to go back to his mining days, there were rumours of new unexplored deposits near the town but they were just that, rumours. The town seemed to thrive on rumours like these, rumours which gave them hope and you could even forgive the residents for believing them, because the truth used to be whatever Mason said, and now someone had killed truth itself.",
+			"Mason had many enemies because of the life he led. He had angered the town's peaceful pastor with his quest for violent retribution. Chambers, the owner of the town's liquor store and the former account man in the mines had a grudge against Mason too. Even Aretha, the madam of the local brothel, despised him. She was a strong woman, physically and mentally, never educated but intelligent, her stare could scare the strongest men but she had a soft side too, the one only her girls had the privilege to see. Aretha's grudge was personal , ever since Mason married Rose, Aretha's hardest working and most favoured girl. Mason had done so in a quest to save Rose, or at least that’s what he claimed he was doing. Rose hardly needed to be saved, she was a smart woman in a world of dumb men, she knew her Bible better than Mason ever did or ever would, but as Mrs Mason, her bruised and beaten body told a different story. It seemed like poor Rose had wilted under Mason's shadow.\n"+ 
+"Everyone knew that Mason's wrath extended to his family. Billy, his oldest son lost his middle finger because he once made the mistake of displaying it to his father. Now, estranged, Billy was well known for threatening to return his father the favour.\n"+ 
+"Mason's biggest foe, however, was The Mayor himself. The Mayor was a former supervisor at the mines and a unionist who had found his calling in politics, and to be honest the mayor did look better in silk suits than in dirty overalls. This new life had made the once strong mayor, soft, and he had a bulging belly to show for it. He rarely got his hands dirty these days. The Mayor used to enjoy Mason’s reign of terror initially, Mason's call for prohibition meant bootlegging became a valid side business for the Mayor. However, as word spread that Mason may contest the next election, his view changed rapidly. ",
+			"The sheriff was an institution of incompetence himself. He indulged in the same activities he was meant to stop. Seeing him almost made you think the town needed people like Mason. If the sheriff even bothered asking he would have known that Billy had spent the night Mason was murdered, with one of Aretha's girls and that the Mayor had invited a local mob boss to provide even more muscle for the upcoming elections.  He would also have known  that Rose was spotted going to the church frequently. Rose often visted the Mayor's office too, especially the land registrar's, but she often bumped into the Mayor. The old friends talked to each other for hours in the, behind locked doors and at odd times.\n"+ 
+"Chambers too was spotted meeting the pastor of late. When he was not at the church he would roam around the old mines. Sometimes he came back home with old rusty tools, it seemed that he had found new purpose again. He recently gained a new reputation of quoting from holy books on random occasions.\n"+
+"Someone had seen the pastor clean his old tools a few days back. ”They are meant for gardening.” , the pastor said. Although how much gardening one can do with tools meant for breaking rocks was a different question entirely. This small congregation at the church meant little to anyone except to those who attended it. What was discussed in these meets was unknown and no one ever cared to find out either.\n"+
+"Aretha was the only one aloof to it all. She was busier these days. The previously empty brothel was now buzzing with business, but not the party she was used to. She thought about her days in the mines, when she was the only woman working in those dark pits and now she was facing the dark world again, all alone, with no Mason to stop her from getting ahead.",
+			"The sheriff looking at the number of suspects he had and he did something he rarely did, he resorted to rational thought. Solving this crime wouldn't be as easy as pinning it on a poor black bum but would require proper detective methodology. Mason was attacked with a pickaxe, something commonly come across in a mining town, however, the nature in which the said weapon was wielded was a cause for worry. The wounds were precise, the blows were deep, surely the work of someone with prior experience with it. It took strong men to wield it properly, such wounds could not be inflicted without strength. But that wasn't the end of it, when he took a close look at Mason's left hand he noticed a missing finger. The middle finger specifically. The sheriff inhaled sharply and realised what had to be done. ",
+			"Billy Mason was on his seventh drink when the sheriff walked into the bar. The younger Mason put forward his right mutilated hand to greet the sheriff but was met with a pistol butt to his face. \n"+
+" ”Why did you kill your own father, Billy?”\n"+
+"It took a moment for the young kid to realise what was happening.  ”It wasn't me. I swear I hated that swine of a man but I wouldn't kill a fly.”\n"+
+"”Don't lie, kid, the noose awaits your neck.”\n"+
+"”I swear; it wasn't me it could have been that shit-stain of a Mayor. Even Ma wanted to kill him. Ma and the Mayor were real close when Pa and the Mayor used to work together, they had more reason to kill him than I did. I would never hurt my own blood, I'm better than my father.”\n"+
+"Billy could have pleaded all he wished but the truth is after Mason's death, Justice in the town was the sheriff's will and it was all that mattered.\n"+
+"Modern day criminologists still hold a divided stance over this, some say Billy was innocent others support the rationale for choosing him as the suspect. So the question remains unanswered to this day, who killed Mason, and why ?",
 
 
 			//STORY H CLUES
-			"Jean Summers, the wife of the deceased, managed to give a statement despite seeming utterly distraught\n" +
-					"– “We were an hour into our annual Summer Barbecue. Scott went inside the house to get more wine.\n" +
-					"I heard my best friend, Raven, scream from somewhere inside the house. We rush inside to find...” She\n" +
-					"paused to regain her composure and then resumed. “Scott was far from being the perfect husband. He\n" +
-					"was a miser at best – always saving, never living in the moment. I never had the liberty to splurge\n" +
-					"despite the fact that he came from good money. If it weren’t for the occasional glimpses of the man I\n" +
-					"once fell in love with, I would have left him a long time ago”, she concluded. Despite her being sighted\n" +
-					"outside the house at the time of murder, the detective made a mental note of the fact that Mrs Summers\n" +
-					"would inadvertently become the sole heir to all that “good money” owing to the absence of a will. ",
-			"Logan Howlett, Scott’s colleague, seemed surprisingly calm and upon questioning, he said “As\n" +
-					"disturbing as the murder may be, it doesn’t come off as a shock to me that someone would want to hurt\n" +
-					"Scott. He was at the top of his game and was earning more than he deserved, at least in my opinion. He\n" +
-					"had worked his way up merely through influence and hence, had picked up quite a few enemies along\n" +
-					"the way.” He claims to have been tending to the barbecue at the time of the murder but, no sources\n" +
-					"could confirm it.\n",
-			"Alex Summers, brother of the deceased, approached the Detective and seemed to be in quite a frenzy\n" +
-					"to get things off his chest ‘’Scotty was asking for it, what with all the egos he must have hurt in his\n" +
-					"rather brash professional life. Even when we were little, he never failed to show me in a poor light for\n" +
-					"his own benefit.” The strain in their relationship wasn’t lost on the detective. It was later confirmed that\n" +
-					"his alibi of making a quick run to the grocer’s for last minute supplies, checks out.\n",
-			"Detective MacTaggert exercised excessive caution while approaching Ms Raven Darkholm, best friend\n" +
-					"to Mrs Summers and the one who claims to have witnessed the heinous act. “I had gone indoors to use\n" +
-					"the restroom and happened to look over to the open kitchen while crossing the adjoining living room.\n" +
-					"Scott was searching for something in the liquor cabinet, oblivious to the hooded man who stood behind\n" +
-					"him silently, gun in hand. Before I could react, the man had shot him in the back and ran out through\n" +
-					"the backdoor.” She stated. Upon being questioned about her relationship with the victim, she said “I\n" +
-					"never really approved of Scott. He wasn’t one to keep Jean happy but then again, he was only a man\n" +
-					"and men rarely succeed in pleasing a woman. Moreover, they had incompatibility to burn. The angel\n" +
-					"that my Jean is, she clearly deserved better.”",
-			"Dr. Hank McCoy, their next-door neighbour was brought in for questioning even though he wasn’t\n" +
-					"invited to the party. Sources state that Mr. Summers was known to have picked constant fights with the\n" +
-					"man and had once accused him of illegal possession of arms which later proved to be libellous. “Scott\n" +
-					"was very paranoid when it came to my experimentations. I am a gun enthusiast at heart, which made\n" +
-					"him suspicious of the numerous shipments that I had delivered. The police complaint was the final\n" +
-					"straw. It’s a miracle that I kept my temper in check and didn’t retaliate immediately”\n" +
-					"Detective MacTaggert leaves the premises quite satisfied as her questioning in itself was enough to\n" +
-					"crack the case wide open. Have you cracked it as well? Who is the murderer? What was their motive?\n" +
-					"How did they carry it out? Also identify which of the seven sins, was the driving force behind the crime.",
+			"Thomas Edison was the first person to see his best friend drenched in blood as he came to pay an occasional visit. He informed the police at the earliest. Upon further inspection of the crime scene, the police found traces of a white powder which was later confirmed to be arsenic. Post mortem revealed that it was arsenic poisoning that killed Mr Tesla. After a comprehensive investigation, the police decided to question four people. ",
+			"Edison - A close friend of Tesla, Edison was heartbroken by his untimely demise. He happened to show up at Tesla’s doorstep for a visit but instead was greeted by a dead Tesla lying on the ground. Being the first one to spot the murder, he immediately informed the police. He added further that on his way to Tesla’s house he had met his servant Westinghouse at the grocery market. Upon being asked about the arsenic, he said he wasn’t very aware of the powder in Tesla’s house. ",
+		      "Westinghouse - The servant was grocery shopping while Tesla’s death occurred, as confirmed by Edison. He informed the police that Tesla was taken to the hospital earlier for a suspected case of food poisoning but was discharged after nothing seemed to be particularly wrong after. When asked about the arsenic, he said he didn’t know much about it except that it was used by his employer in his experiments. He further claimed that it was one of the other three suspects who is the murderer. Throughout the testimony, his speech was inarticulate and his rambling tone made it hard to decipher what he was trying to convey. ",
+
+			"Roentgen - A relative of Tesla’s, he emphasised how Tesla craved for isolation and that death was his enemy. He said that they hadn't met for a long time, but the night before Tesla’s death, he had called him. Tesla told him there was something troubling him and that he wanted to talk about it. The time for their meeting was around the same time as Tesla’s death. When he reached Tesla’s place he was 30 minutes late and saw a fretting Edison and realised Tesla was dead. Further, on checking the records, Roentgen was revealed to be in possession of huge quantities of arsenic. ",
+			"Einstein - A junior of Tesla, he was informed by his superior that he was to attend the meeting with Roentgen. He declined citing his mother’s poor health. The police later confirmed that the arsenic was registered in Einstein's name. Einstein confirmed it stating that it was bought for preventing rat infestation at Mr Tesla’s place. He further added that the servant occasionally forced Einstein to buy Arsenic because Mr Tesla refrained from doing so.\n"+ 
+"One of the following is a murderer suffering from a mental illness. Identify the culprit and the illness, and you are good to go. ",
 
 
 			//STORY I CLUES
-			"John lived on the ground floor. According to him most of the morning went in doing his laundry. A pile\n" +
-					"of wet clothes hung on the rope outside seemed to agree with his statement.",
-			"Sam was the other resident on the ground floor. His night shifts on Saturday meant he spent the whole\n" +
-					"of Sunday morning sleeping; or so Sam told the police. There was no conclusive evidence to back this\n" +
-					"up.\n",
-			"Walter lived on the second floor. A lunch date with couple of old friends and some grocery shopping\n" +
-					"completed his morning. Later he had returned to his apartment via the elevator and cozied up with a\n" +
-					"novel.",
-			"Lester lived adjacent to Walter. Like every Sunday he had gone to visit the local church nearby and had\n" +
-					"returned after lunch with a family friend in a nearby restaurant.",
-			"Mrs. Smith, was the one who had called in. Her elder son has tuition in the morning. She had woken up\n" +
-					"to prepare breakfast for him. It was during that time she had spotted the blood, while bidding him\n" +
-					"goodbye.\n" +
-					"Who was the murderer and why? Also identify which of the seven sins, was the driving force behind\n" +
-					"the crime. ",
+			"Hercules Pirate the renowned detective appears on the scene and he starts interviewing the staff of Mr. Scrimgour. The first person to be interviewed is Paula, the maid.\n"+
+"H.Pirate:- Have a seat Paula and tell me about the events that transpired today.\n"+
+"Paula: - I came to work at 7:30 and Miss Scrimgour asked me to start cleaning up the house and after I was done, to get her clothes sorted out and to polish her pearls. I finished cleaning the house by around 9:00 and then entered her bed chambers, unlocked the safe and polished the jewels. I locked the door after that and left the room.\n"+
+"H.Pirate:- Is it true that apart from Miss Scrimgour, only you know the combination lock to the safe?\n"+
+"Paula: - Yes it is. But I would never steal the jewels. The Scrimgours are very nice to me and I have been working with them for years. I would never do such a thing.\n"+
+"H.Pirate:- Where do you live?\n"+
+"Paula: - I live in Yorkshire with my husband Todd.\n"+
+"H.Pirate:- What does he do?\n"+
+"Paula: - He is searching for a job. He lost his job with the East India Company after their acquisition by the crown.\n"+
+"H.Pirate:- Okay Paula you may leave. ",
+			"The next person to be interviewed by Hercules Pirate is the chef.\n"+
+"H.Pirate:- Please have a seat Harry and tell me what were you doing during the robbery?\n"+
+"Harry: - I came to work at around 7:30 and Miss Scrimgour asked me to get the food ready for today's luncheon so I prepared the spice mix and baked the potatoes. A little over 9, I left the house to pick up the rosemary and basil needed for the cooking from the garden. I spoke to Sam, the gardener, for a short period of time and then got back to work.\n"+
+"H.Pirate:- This is your last week here isn’t it? Thought of leaving with a bang eh?\n"+
+"Harry: - The main reason I am being fired is because of my smoking. I am a chain-smoker, I will admit that. I have been trying to quit but I can't. But that doesn't make me a criminal.\n"+
+"H.Pirate:- But here is the rub in the story. You mentioned the rosemary and basil needed for the cooking. The plant grows next to a window right below the stairs in the house. Is that just a coincidence?\n"+
+"Harry: - It is just a coincidence, I had nothing to do with that. I promise. ",
+			"The next person to be interviewed by Hercules Pirate was the butler.\n"+
+"H.Pirate:- Have a seat Thomas and tell me, what were you doing during the robbery?\n"+
+"T.Rhett:- I woke up at 7 in the morning and got dressed. Then I waited for Mr Scrimgour in the foyer as he had some errands to complete and I was to assist him. I returned to the manor at 9 and started on my chores. I collected the mail, cleaned the cutlery, set the table for the luncheon and polished the vases.\n"+
+"H.Pirate:- Is it true that you weren't exactly a butler and this is a profession you took up quite recently?\n"+
+"T.Rhett:- Yes, I was a stage performer before this, but I was not able to succeed in that profession not because of my bad acting capabilities but because the directors in England love to sideline true talent. I cannot deal with them as they were never pleased with my acting which I am sure was the best they had ever seen. It is all nepotism I tell you! They hire their children to keep the money flowing in the family.\n"+
+"H.Pirate:- So why become a butler?\n"+
+"T.Rhett:- Well I was quite experienced with all the duties of a butler because I had to care for my siblings. And I offered my services to the Scrimgours and I was happy when they accepted my services as they are an influential family. But they also treated me with a lot of kindness and I would never do anything to them.",
+			"The next person to be interviewed was Sam the gardener.\n"+
+"H.Pirate:- Have a seat Sam and tell me what you were doing during the robbery.\n"+
+"Sam: - I came to the house at 9. Then went to the storeroom to collect the gardening materials. I then left to clear up the snow. After a while Harry came out to have a smoke. We chatted for a while, then I got back to work. I then entered the kitchen to have a glass of water. I noticed Paula and Harry talking. \n"+
+"H.Pirate:- What were they talking about?\n"+
+"Sam: - Well from what I heard I think Harry has been fired because Paula was consoling him telling him that he could always get a job in a better place and that he must really quit smoking and turn a new leaf.\n"+
+"H.Pirate:- The storeroom is very close to the bed chambers. Did you notice anything?\n"+
+"Sam: - Nothing it all looked normal to me. The door was unlocked with the key on the door. \n"+
+"H.Pirate:- How is that usual?\n"+
+"Sam (laughs):- Paula is quite absent-minded I am sure she must have forgot to lock it. She gets reprimanded a lot for it. ",
+                         "After interviewing the suspects, Hercules Pirate enters the bedroom and takes a look. He notices the furniture in the room has been wiped and there is a gleam to it. There are some water stains on the floor and the dress that Miss Scrimgour was supposed to wear is on the bed. Hercules paces about the room processing the information he acquired.\n"+
+"Hercules Pirate suddenly gets a brainwave. He has got the culprit. It was right there all along. A small mistake but that's all it took.",
 
 
 			//STORY J CLUES
-			"It was a chilly evening in London, where she sat with her childhood friend Anna and distant niece Jane\n" +
-					"for dinner while they uncorked this lovely, full-bodied wine bottle that Anna had bought for her. Mary,\n" +
-					"the maid had been bustling all afternoon for this soiree that Emma had been planning for quite a while.\n",
-			"Before you knew it, Jane sprung up from the dinner table and stormed into her room, all because she\n" +
-					"didn't agree with her Aunt. The two elderly ladies found it unacceptable. Keeping the incident aside,\n" +
-					"they continued with their meal, enjoying the food and wine, while Mary waited in the shadows, waiting\n" +
-					"to be beckoned.",
-			"\"It's such a shock to me\", remarked prim Anna. \"They meant so much to Emma. She wore it to every\n" +
-					"social gathering and now it's just vanished? They were on her bedside table, when I left her. She was\n" +
-					"very upset about the falling out with her niece, Jane, so I went with her to the room just to calm her\n" +
-					"down. But she fell sound asleep in hardly any time, I guess the wine was a lot for her. It was then that\n" +
-					"I told Mary that she should get Emma an aspirin in the morning, knowing that she would need it, and\n" +
-					"told her not to disturb her. It's all because of that dreadful girl Jane, she shouldn't have kicked up a fuss\n" +
-					"at dinner yesterday. I'm sure these yearly visits of hers are just a farce. She just wants the inheritance.\n" +
-					"And she has started taking it for herself already!\"",
-			"\"It's horrid!\", cried Jane, indignantly. \" I felt extremely guilty after that terrible argument with Aunty\n" +
-					"so I asked Aunty Anna if she was alright and I went to her room to apologize. She was asleep, so I woke\n" +
-					"her up and I just had to apologize! We had put things behind us. It was when she got all warm and\n" +
-					"settled in bed that I left her. I didn't pay attention to the pearls but I'm pretty sure, the pearls were right\n" +
-					"there: on the bed stand. Aunty cared too much about those pearls that her vanity was getting to her head.\n" +
-					"You should talk to the maid Mary, I'm pretty sure she'd be the one with the pearls. She needs the money\n" +
-					"anyway, and I'm sure they don’t like the way Aunty treats them, sometimes she can get a tad superior.\"",
-			"On questioning, Mary recalled, \"I entered Madam's room at 7 in the morning to give her the Aspirin as\n" +
-					"Madam Anna had directed me to. I drew the windows close and gave her the usual mittens she wears\n" +
-					"every night. I placed the aspirin and jug of warm water on the table and left. I didn't remember her\n" +
-					"pearls, so I'm not sure whether they were there or not. However, Madam Anna had told me not to enter \n" +
-					"the room after she left. I just followed instructions. I was surprised she came for dinner, considering\n" +
-					"how very envious she is of Madam Emma\", with a smirk on her face.\n" +
-					"Emma was beside herself, weeping uncontrollably when she sobbed, \"How I wish I hadn't had so much\n" +
-					"of that dratted wine! I don't remember a thing after dinner. I loved those pearls. How beautiful they\n" +
-					"looked on me! And now they're gone. Oh I beg you, do find them for me! “ Who do you think took the\n" +
-					"pearls and why? Also identify which one of the seven sins, was the driving force behind the crime.\n",
+			"Seated in a room filled with the world’s most exquisite clocks, Narcissa White denied outright, recognising the girl and asked for a quick clear up of the entire affair. ”Oh, this is so scandalous, what will be left of our family were all this to be printed in the papers. How that scum of a girl got in here is past me. Girls these days, I tell you, are up to no good. That watch there is a real beauty Inspector, must have cost you a fortune.” Upon being asked about her possible involvement in the crime she said, ”Due to severe rheumatism, I am confined to my chair. I need help to even get to my bed. That fellow Rufus takes care of me very well. He is a nice boy.” ”Oh, I almost forgot I remember hearing Diana, our dog barking sometime around midnight, though who could have let her off chains beats me. Now if you will excuse me, I have a bad headache, I need to rest.”",
+			"Lisa White the older of the White sisters looks smug and sly as she answers, ”Well it definitely is a mystery how she got in, but serves her right for trying to trespass into our grounds. I would have preferred a more humane punishment though. What puzzles me is why she would want to wander in here. I mean she doesn’t look like a cat burglar. Seems to be from a well-bred family, although of course, appearances can be deceptive. I was at the lawyer’s trying to sort out some financial matters, the entire day yesterday. I came back at night and immediately went to sleep”",
+			"Elaine White, Lisa’s younger sister was a bag of nerves. ”This is really scary, I have been telling mom to do something about the security but all she is bothered about is looking after our dog and providing it with all kinds of nonsensical luxuries. All it does is tear everything apart. That dog needs to be checked not let out. Anyway, that’s another issue. What if this girl meant to attack us? EEK’s! What was that? Oh, it’s just you Rufus. You gave me such a scare. I had a headache the entire day yesterday, so I was confined to my quarters, I didn’t even bother getting up for meals. You can ask Rufus here.”",
+			"Rufus seemed more refined than an ordinary servant. ”The matter looks like a mere burglary incident to me sir, there are way too many things that would sell for a huge fortune. Well, the girl had rotten luck I should say. I was busy with the household work. It’s hard to manage a house of these dimensions single-handedly. I helped Lisa madam with a huge parcel of supplies, late into the night and then proceeded to lock all doors. It was pretty late by the time I retired to bed and yes, I do remember hearing Diana bark sometime around midnight, though I didn’t think much of it at that time.” ",
+                       "ALL PURPOSE MYRA SHOES A GROWING TREND\n"+
+"Whether you are a sports enthusiast or someone who likes lazing around, you live in the Sahara or the Amazon, Myra shoes are tailor-made to suit your needs. This wonder polymer that can handle all weather conditions and intense wear and tear, is a comfortable fit for any activity. The young Myra Sogndal has created a wave in the shoes market by creating the first ever self-healing polymer. Her simple outer appearance masks the genius that resides inside her. The characteristic smell of polymer is evident even at a distance. This image melts away when one approaches her, as she is extremely amicable and loves talking about her project. Her business strategy is ‘Stay passionate about your dreams, they will grow wings and fly’ She is planning to expand her business into other fields soon enough. She is an inspiration to other spirited inventors. \n"+
+"An article from the ‘Inventors Inspiration’ dated a month ago\n"+
+"THEFT AT MYRA STORE\n"+
+"A large number of goods were stolen from Myra store last night. The theft was discovered this morning by Myra herself. There have been reports of spotting heavy set woman with a gruff voice, on the premises of the incident, around the time of the theft. The police feel that this incident might be connected with a series of minor thefts that have occurred in the neighbourhood during the past month. But none of the other incidents were of this magnitude. Myra Sogndal, the owner of the ‘Wonder Polymer Store’ seemed very agitated with the incident. She said that she wouldn’t rest until she got to the bottom of this.\n"+
+"Report in ‘Daily Times’ dated a week back ",
 
 
 			//STORY K CLUES
-			"Ron and Hermione first went to Uncle Vernon in the living room and asked him what he was doing at\n" +
-					"around 5. He replied, saying that he was watching the news and reading his newspaper while having\n" +
-					"his evening tea.",
-			"Then Ron and Hermione went to Aunt Petunia and asked her what she was doing at 5. She said that she\n" +
-					"was busy doing laundry and then went to prepare dinner for the evening.\n",
-			"Marvin and Sam were next. they were playing catch, with the children down the street and when\n" +
-					"questioned about their activities at 5; they stated that they were trying to mingle with the street kids,\n" +
-					"asking them, if they could join in for football.\n",
-			"Aunt Marge was next on the suspect list. After interrogating her, Ron and Hermione left empty handed,\n" +
-					"as she was too arrogant to provide an alibi, stating that it was un-ladylike of her to sneak a piece of\n" +
-					"cake.\n",
-			"Finally, Ron and Hermione went to Dudley and asked for his alibi. He said that he went to collect the\n" +
-					"mail and was stuck in the washroom ever since because he had to break wind.\n" +
-					"Who stole the cake and why? Also identify which one of the seven sins, was the driving force behind\n" +
-					"the crime."
-	};
+			"Within the space of an hour the chief of tribe Odawa arrived, flanked by his subordinates, Mika and Kadoha. The man on the left, Mika went straight for the hut. Habib listened in terror, the sound of a woman’s agonized shrieks and Mika yelling. As Mika came out of the hut and walked into the wilderness Odawa and Kadoha followed suit. ",
+			"Habib was perplexed and horrified.\n"+ 
+"”It is the devil. They will leave it in the clearing and the great spirit will destroy it,” said a woman on his right. \n"+
+"”Who are you?” Habib asked.\n"+
+"”I am Dakota, the healer,” she stated.\n"+
+"”We have to make it stop! This is inhumane!” he shouted, ”Wrong!”\n"+
+"She frowned and shook her head. ",
+			"Habib made his way towards the hut. Timiska cried through the evening as her husband tried to comfort and chastise her halfheartedly. As night fell Odawa ordered Mika to bring the child and Kadoha to make preparations for the cremation.  Mika returned with the dead child swathed in a cloth in his arms and set him on the floor. Timiska stretched her arm forward and straightened the head of her child. The creaking sound that accompanied this action sent her into another fit of sobs.  Kadoha returned with news that all the preparations had been made. He looked at the tiny cadaver and then to Timiska. His eyes were filled with rage and he struck her across the face.\n"+
+"”Why did you touch!” he exclaimed ”Shame! Shame! Shame!”",
+			"The following day Habib decided to confront the chief.\n"+
+"”These people are uneducated,” he thought to himself, ”They actually believe this cock and bull story. Maybe if I talk to the chief and make him see reason he will call for an investigation on the matter.”\n"+
+"The meeting however, couldn’t have been further away from his hopes and expectations. As soon as he approached the matter the chief went into a fit of rage. ”We have accepted you as a guest,” he warned, ”but do not try to meddle in our matters. It has been this way since the past few years and shall remain until the great spirit desires it to be so. Do not mock our traditions.” ",
+			"Habib had taken it upon himself to get to the bottom of the matter. He visited Abenaki’s hut and promised Timiska he will avenge the death of her son.\n"+
+"”No,” she replied simply, ”it was the will of the great spirit. I have been bad, very bad.”\n"+
+"”You will have to shave your head to atone for your sins Timiska,” said her husband.\n"+
+"At this point Habib had given up on getting help from any of the tribals. He decided to take refuge in his headspace and contemplate on everything he had seen. Can he find the killer? ",
+                    
+                         //STORY L CLUES
+                             
+                         "At fifteen miuntes past four, a group of police officers swarmed around the small room with parquet flooring that was once Mr.Fletcher’s office. His body lay flat against the ground, arms and legs spread out. A faint chlorine like smell pervaded the room. His fingers, once clenched with pain, were now somewhere between opened and closed. The blow on his forehead was as apparent as the look of utter shock on his face. The weapon of murder was nowhere to be found. The murder was tentatively estimated to have occurred 3:30 that afternoon.\n"+ 
+"Right outside the room stood a throng of curious onlookers, some were teetering on the balls of their feet, trying to get a better view, while others stood still, carrying expressions of anguish and fear on their faces. Mr.Sutachan was being interrogated as was Mrs.Fletcher who was sobbing hysterically. Mr.Fletcher’s favourite students Tanya and Danyal stood towards the front of the crowd but Mrs.Maria Galbraith was nowhere to be found. ",
+			"A large crowd of parents, students and teachers had gathered at the school courtyard for Mr. Brent Fletcher’s memorial service the next morning. People spoke in hushed whispers, looking towards the man standing on the podium in anticipation.\n"+
+"”Good Morning,” Mr.Sutachan boomed, ”As the principal of this school I would firstly like to thank you all for making it here. Mr.Fletcher was not just a colleague, he was a dear friend. An exceptional lecturer, he possessed a heart as beautiful as his mind. I will miss our ice fishing trips and our long conversations. Thank you Brent for your gentle love, friendship and kindness. We will always remember you for the inspiring, positive person you were.” ",
+			"”My name is Tanya Varghese,” one of the girls said, ”and I was one of Mr.Fletcher’s students. Mr.Fletcher was more than just a teacher to me. He was the most compassionate, kind man. When I was going through a really rough patch and didn’t have anywhere to go for help, Mr.Fletcher listened to my woes and comforted me. I will never be able to repay the kindness he showered me with. We all knew he was leaving Eastwood but nobody was prepared for what happened. To think that we were swimming when he was- he was-”\n"+
+"Mr. Sutachan rushed to the stage as Tanya began to weep. ",
+			"A light discussion was taking place in a loosely formed circle of faculty members.\n"+
+"Out of nowhere Mrs.Fletcher’s shrill voice screamed ”You lunatic! You murderous wench! It was too hard for you, wasn’t it? You couldn’t bear the fact that Brent didn’t give a rat’s ass about you! I don’t care what anyone says-”\n"+
+"”Please Mrs.Fletcher,” interrupted Mrs.Maria, her chin held up,”I will not have you throwing absurd accusations at me in a public place. Brent was a great friend and I will let this slide for the sake of his memory.” Her voice broke at the last word and she lost composure. Tears now streamed freely down her cheeks. She looked around once as if daring someone to mock her, then stormed away. Everyone watched her with bewildered expressions for she was a woman who always maintained a composed persona. ",
+			"Below the right corner of the stage Mr.Sutachan was in conversation with Danyal.\n"+
+"”…really hard for me” Danyal lamented, ”I mean, I did initially loathe Mr.Fletcher when he brought me to your office and informed you about my drug addiction. I was so reckless and spoilt back then. It was after he tried so hard to convince you to not report me that my life turned around. I’ve found so much purpose and meaning in life. I get good grades and I’ve developed passion for music, in fact I was at band practice just yesterday afternoon..” ",
+
+
+
+
+                        //STORY M CLUES
+
+                     "Steve and Frank said they carpool to work and they reached the newsroom at about 7:40AM. They corroborated what Darryl, the janitor, said regarding what happened when he found the body.  Steve had met Billy several times at his office regarding work but it was the first time Billy would be returning the favor. Steve is the City Reporter and Frank is a freelance photographer on a 1 year contract. ",
+
+                     "Pete Hawkins, the Editor-in-Chief arrived at 8AM. For an editor who lost his Pulitzer-winning journalist, he was doing alright. ”This is gonna look great on the cover page – Pulitzer-winning journalist found dead in newsroom. Get on it Steve; this isn’t a day off.” It wasn’t too hard to figure why no one liked Pete.\n"+
+"No one liked each other really – they just worked together. After winning the Pulitzer, Greg was given his own office and a hefty bonus. Said Frank, ”I get that the Pulitzer is a big deal but you don’t have to be an arrogant prick to all your colleagues. He really rubbed people the wrong way.” ",
+
+                     "Billy had reached at 8:30AM and interrogated all the employees. Darryl mentioned something interesting - he had found a Sheaffer pen with the initials W.M when he found the body. Could those be the initials of the killer? Although he still had a few questions left, he had an idea of how the murder happened according to the employees- Greg was working late, finishing, according to Pete, an article he thought would win him another Pulitzer. It was 11PM and Pete was the last to leave. The murderer entered the newsroom after this time and charged into Greg's office, firing two bullets in his chest from a Colt 1911 before leaving the same way he came. Bill slowly smiled and quietly said to himself, ”Solving this case is going to make me famous”. ",
+
+                     "His thoughts were interrupted by a loud argument outside the conference room. Frank yelled at Pete ”How do we know you're not the killer, boss? You were the last to leave, weren't you?””You're one to talk, Frank. Everyone here knows you hated Greg for receiving the Pulitzer Prize when you didn't get one for your 'breath-taking' photo.” Frank gritted his teeth. ”So you think I would kill him for that? Since we're getting personal, why don't you tell everyone that Greg used to date your wife and that she still has a soft spot for him?” ",
+
+                     "Steve broke in. ”Alright, that's enough. Stop accusing each other.” But Pete yelled back, ”And just so you know, I left at 11PM and I reached home at 11:30PM and that's how long I always take.” Billy asked him, ”Where do you live?” ”At Garrison's Circle.” Billy replied, ”Checks out. I stay there too and it took me this long both times.” ”Oh so you just strike his name off the suspect list?” scoffed Frank. ”And have you even done a background check on Darryl? These ghetto guys always get into stuff like this. Some PI you are.” ”Back off, you bloody idiot. You have no idea how difficult it is being a PI”, screamed Billy.\n"+
+"With tensions rising and new revelations, a new light is cast on the situation. But in a case where everyone seems to have a motive, who is the real killer? ",
+
+
+                      //STORY N CLUES
+                      
+                     "The constables from the department arrived at the scene on the basis of a tip off from a certain Mr. Daniel at 11:20pm. Daniel informed them that his roommate Ben had rushed out in an agitated state after a heated discussion about their old friend Jeremy with his car keys and Daniel’s pocket knife, locking him in the room. The caller said that his friend might have gotten into trouble since he wasn’t answering his calls, and asked the department to check the premises of Jeremy’s house, Blueberry Manor. On reaching the Manor, the constables found Jeremy’s dead body with blood gushing from a wound in his neck and Ben standing over him in a blood-soaked shirt, knife in hand. They immediately arrested Ben and called Detective Stanley. A pocket knife, grease stained gloves, a heavy spanner, car keys, room keys and a lighter, along with some crumpled paper, was found on Ben. ",
+
+                      "Ben vehemently protested his arrest even though all facts pointed to him clearly. When asked about his whereabouts, he narrated his day with intermittent sobs; ”Being a mechanic at the local garage shop, I usually come back to the room late and today was no different. I came back from a hectic day at work at around 10:30 pm, went to the fridge and poured myself the usual glass of milk. But a few seconds later, I started to get the fuzzy feeling I get just before a panic attack. I left for a drive with no particular destination in mind, just to get some fresh air. I don’t remember anything that transpired after that. Not unusual considering the Dementia I suffer from.” When asked about his relation with Jeremy, he said that he, Jeremy and Daniel had been college mates who started a business together. Because of a rash and unexplained business decision, Daniel caused a loss in the business. Soon, this developed into a rift in his friendship with Jeremy, and he left, advising Ben to do the same. Ben subsequently sold off his shares and left too. Later, Jeremy struck gold as the business turned profitable. When being asked about the possibility of an affair between Jeremy’s girlfriend Nicole and him, he agreed to having had a crush on her in college, but there was nothing more to it than that.  ",
+
+                     "Daniel came to the manor at 12:00 am, claiming to have broken down his locked door and rushing to check what had happened. He testified that he was having a rather long discussion about Jeremy’s business with Ben after work since about 9pm over tea. Things quickly got heated when Ben got one of his attacks, leading to him leaving the flat angrily, locking Daniel in, muttering something about making Jeremy pay. He informed the police that Ben suffered from Dementia, and had been undergoing treatment for a long time. He also said that Ben hadn’t been taking his pills properly since the past few weeks, which made him moody and resulted in frequent smaller attacks that had never before manifested itself so dangerously. He is not too surprised on learning about the murder of Jeremy. ",
+
+                    "Nicole, Jeremy’s girlfriend, arrived at the Manor soon after. She broke down looking at the corpse of her beloved. When asked about her whereabouts when the crime occurred, she said she was at a kitty party with their lawyer’s wife. The detective asked dryly whether it is the same lawyer who had written Jeremy’s will a few days back, leaving her the entirety of his wealth. She fumbled and affirmed. Nicole also informed them that she hadn’t heard from Ben or Daniel ever since they left the business. She didn’t quite like Daniel, considering he was the silent, aggressive one in the group who always got Jeremy into trouble. Between fresh sobs, she said that she didn’t believe Ben could have committed the crime, and was quite sure that it was the work of her jealous ex-boyfriend Frank, a drunkard drug dealer. She was let off and the detective returned to the police station with Ben in custody. ",
+
+                    "Frank was brought to the station at 12:50 am, evidently drunk and irritated with being woken up this late in the night. When asked for an alibi, he said that he had gone to a bar alone at around 8:40pm. The bar he spoke of was quite close to the crime scene, putting him not very far from the events. He spent the entire evening there, and one of his friends dropped him home in his car at around 11:50 pm, after which he was picked up by the police. On further questioning, it was revealed that Ben had approached him for higher doses of antidepressants and antipsychotics than prescribed by the doctor, and he had helped him get the drugs. He then started pleading that he didn’t do anything illegal as the drugs were still prescribed and that he had no hand in the murder of Jeremy even though he had a difficult break-up with Nicole, who had left him for his excessive drinking habits.\n"+ 
+"The detective now knew for sure who the person behind the murder of Mr. Jeremy was. Who do you think killed Jeremy? ",
+
+
+                          //STORY O CLUES
+                      
+                      "This morning I woke up and had to rush to the bathroom. I threw up. I think I am sick.  I told dad about it and he said it must’ve been the tuna we had last night for dinner. I believed him, like I always do. Dad tells me that I am a kid and I don’t know how cruel this world can be, especially to a pretty girl who always tries to help others, and that I am lucky I have him to take care of me. ‘You are so innocent it shows in your eyes.’ He always says. He is by my side almost all the time, but not when I am at school. Somehow, I feel safer at school than I do with him at home. I don’t like to be touched. No one touches me at school and no one makes me do things I don’t want to do. In fact, every time dad touches me I want to take a hammer and hit his head. I don’t think real dads would make their daughters feel this way. He tells me that I was born to be touched by him. Is that true? I always wonder where my mom is and whenever I ask him about her he tells me that she left the both of us when I was a baby and never came back. I want a mom. I am so jealous of the other kids at school who always talk pleasant things about their moms. I’m sure things would’ve been different if she were here. Oh God, I feel so sick, I feel like throwing up again. Please make this go. ",
+
+                      "Ava startles and wakes up to the loud sound of honking from behind her. She quickly starts her car and starts moving towards her office. 'Shit, I fell asleep yet again' she fumbles as she pulls over in front of her office building. As she makes her way across the hallway, her phone rings. Its Dominic.\n"+
+"She isn’t sure if she wants to talk to him especially after the fight they had last night when he was being a total jerk about the situation at hand. Dominic calls her again only to be cut off by her. He is beyond annoyed that the situation is not under his control now. He left his boring but devoted wife, Ava’s best friend, Catherine for her. He needed the money and status more than anything. Adopting Sam would ruin all his chances at acquiring Ava’s wealth and status. A few seconds later his phone rings. Its Catherine. He wonders if she is calling to discuss the age old 'how could you leave me' story and decides to ask her to stop it now. He picks up the call. Catherine’s voice sounds rather uncanny. He asks her what the issue is. 'I know everything, Dom. I know why you left me for that bitch. It’s her money, isn’t it? but now you can’t have it, because she wants to adopt the kid. ''How do you know this Cathy?'' ‘I have my sources. Now listen, I will help you get rid of this kid, if you promise me that you will leave Ava and come back to me.’ ''Cathy are you out of your mind?'' ‘No Dom, think about it. If this kid is out of the picture, you can marry Ava and get a good share of her wealth. Then you leave her and come back to me. It’s a win-win situation for the both of us.' ",
+
+                      "Ava always wanted to be a mom. When she proposed this idea to Dominic he laughed; which was quite an insensitive reaction. ' Are you serious? Just because you feel connected to your patient doesn’t mean you are ready to be a mom' he said. She couldn’t deny the connection she shared with Sam. Sam needs her help. She is the only one Sam trusts. Sam couldn’t sleep. Not because she is an insomniac but because she always landed up in a different place every time she closed her eyes. Once she closed her eyes, she could feel herself drift away from the cruelties of this world. She could watch her soulless body move around aimlessly like a zombie. All this makes Ava realise that Sam needs her, not as a doctor but as a mother. She was never lucky to have the presence of a motherly figure all her life. All she has and can remember from her childhood is her sadistic uncle. Antonio Vasquez; her father’s brother, was her guardian after her parents were killed in a car crash years ago. Her parents left behind immense wealth all in her name and so Antonio took up the custody of Ava after her parent’s death. All he cared for was her parent’s money which he would invest in dirty businesses. She is happy that she doesn’t have to live with him anymore. ",
+
+                      "As Ava cuts Dominic’s call for the second time she realises that maybe Dominic wasn’t in love with her anymore. Things worsened especially after the failure of his business. He has become completely dependent on Ava. Ava realises that maybe Dominic is insecure about adopting Sam because then her attention would be divided between the two.\n" +
+"As these thoughts pass by she quickly gets into her cabin and checks the time; 9:45 am but no sign of Sam. She asks Martha about it and Martha informs her that the orphanage hasn’t been receiving her calls for the past hour. Just as Martha leaves Ava’s cabin she is startled by the presence of Antonio Vasquez. She informs Ava about the unexpected visitor. ",
+
+                      "Antonio Vasquez had something to share with Ava. 'What brings you here, uncle Tony?' she asks him. he cringes and takes a seat in front of her table.\n"+ 
+"'I’m assuming you’ve seen the news this morning'. ”What about it?” Ava asks. Antonio grabs the remote on the table and switches on the TV. '17-year old brutally murdered. Police have identified her as Samantha from St. Helens home for girls. She had been missing for over 12 hours until her body was found in a dump yard right across Elliott Avenue Street.' Ava was beyond shocked. 'There’s something more I have to tell you '. ”What?” ‘Samantha was your daughter. Because she was born when you were really young, I had to give her away to a girl’s home. I’m sorry I didn’t mention this before’ ”You ungrateful bastard, I gave you all the money you wanted for your inhuman activities but you never bothered to tell me I had a daughter. Is it because that would mean no share for you in my dad’s wealth. Wait, are you the one who killed her?"
+                     
+	
+};
 
 
 	@Override
